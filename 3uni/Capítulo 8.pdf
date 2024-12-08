@@ -1,0 +1,2647 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta HTTP-EQUIV="Pragma" CONTENT="no-cache" />
+		
+		<title>SIGAA - Sistema Integrado de Gest&#227;o de Atividades Acad&#234;micas</title>
+		<link class="component" href="/sigaa/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/basic_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css" /><link class="component" href="/sigaa/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" media="rich-extended-skinning" rel="stylesheet" type="text/css" /><script src="/sigaa/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.PrototypeScript.jsf" type="text/javascript"></script><script src="/sigaa/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.AjaxScript.jsf" type="text/javascript"></script><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/available.js.jsf" type="text/javascript"></script><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/jquery/jquery.js.jsf" type="text/javascript"></script><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/script/controlUtils.js.jsf" type="text/javascript"></script><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/utils.js.jsf" type="text/javascript"></script><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/browser_info.js.jsf" type="text/javascript"></script><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/modalPanel.js.jsf" type="text/javascript"></script><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/modalPanelBorders.js.jsf" type="text/javascript"></script><link class="component" href="/sigaa/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/modalPanel.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css" /><script src="/sigaa/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.ImageCacheScript.jsf" type="text/javascript"></script><script src="/sigaa/a4j/g/3_3_3.Finalscripts/panelbar.js.jsf" type="text/javascript"></script><link class="component" href="/sigaa/a4j/s/3_3_3.Finalcss/panelbar.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css" /><script src="/sigaa/a4j/g/3_3_3.Finalorg/ajax4jsf/javascript/scripts/form.js.jsf" type="text/javascript"></script><script src="/sigaa/a4j/g/3_3_3.Finalscripts/simpleTogglePanel.js.jsf" type="text/javascript"></script><link class="component" href="/sigaa/a4j/s/3_3_3.Finalcss/simpleTogglePanel.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css" /><link class="component" href="/sigaa/a4j/s/3_3_3.Finalcss/toolBar.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css" /><script src="/sigaa/a4j/g/3_3_3.Finalscripts/menu.js.jsf" type="text/javascript"></script><link class="component" href="/sigaa/a4j/s/3_3_3.Finalcss/dropdownmenu.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css" /><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/form.js.jsf" type="text/javascript"></script><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/menu.js.jsf" type="text/javascript"></script><link class="component" href="/sigaa/a4j/s/3_3_3.Finalcss/menucomponents.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css" /><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/jquery.utils.js.jsf" type="text/javascript"></script><script src="/sigaa/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.DnDScript.jsf" type="text/javascript"></script><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/json/json-dom.js.jsf" type="text/javascript"></script><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/dnd/dnd-common.js.jsf" type="text/javascript"></script><script src="/sigaa/a4j/g/3_3_3.Finalscripts/drag-indicator.js.jsf" type="text/javascript"></script><link class="component" href="/sigaa/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/dragIndicator.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf" rel="stylesheet" type="text/css" /><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/json/json-mini.js.jsf" type="text/javascript"></script><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/dnd/dnd-dropzone.js.jsf" type="text/javascript"></script><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/simple-dropzone.js.jsf" type="text/javascript"></script><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/dnd/dnd-draggable.js.jsf" type="text/javascript"></script><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/simple-draggable.js.jsf" type="text/javascript"></script><script type="text/javascript">window.RICH_FACES_EXTENDED_SKINNING_ON=true;</script><script src="/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/skinning.js.jsf" type="text/javascript"></script><link rel="shortcut icon" href="/sigaa/img/sigaa.ico" />
+
+ 		<script type="text/javascript" src="/shared/jsBundles/jawr_loader.js" ></script>
+ 		
+		<script type="text/javascript">
+			JAWR.loader.style('/bundles/css/sigaa_base.css', 'all');
+			JAWR.loader.script('/bundles/js/turma_virtual_base.js');
+		</script>
+		
+		<script>
+			JAWR.loader.style('/javascript/ext-2.0.a.1/resources/css/ext-all.css', 'all');
+		</script>
+
+		<script src="/shared/javascript/ext-2.0.a.1/ext-base.js"></script>
+		<script src="/shared/javascript/ext-2.0.a.1/ext-all.js"></script>
+		
+		<script src="/sigaa/ava/javascript/turma.jsp"></script>
+		
+		<link rel="stylesheet" type="text/css" media="all" href="/sigaa/cssBundles/N1302892059/bundles/css/sigaa.css" />
+
+		<link rel="stylesheet" type="text/css" media="all" href="/sigaa/cssBundles/N613904056/ava/css/turma.css" />
+
+		<link rel="stylesheet" type="text/css" media="all" href="/sigaa/cssBundles/727192770/css/jquery-ui/css/jquery-ui-1.8.4.custom.css" />
+
+		
+ 		<script type="text/javascript" src="/sigaa/jsBundles/N1904321996/javascript/jquery-ui/js/jquery-1.4.2.min.js" ></script>
+
+	    
+		<script>var J = jQuery.noConflict();</script>
+		
+		<script type="text/javascript" src="/sigaa/jsBundles/232493814/javascript/jquery-ui/js/jquery-ui-1.8.4.custom.min.js" ></script>
+
+		<script type="text/javascript" src="/sigaa/jsBundles/N1187073003/javascript/jquery-layout.js" ></script>
+
+		
+		
+        
+        
+		
+		
+		<link rel="stylesheet" type="text/css" href="/sigaa/primefaces_resource/1.1/skins/sam/skin.css" /><link rel="stylesheet" type="text/css" href="/sigaa/primefaces_resource/1.1/jquery/plugins/ui/jquery.ui.dialog.css" />
+		<script type="text/javascript" src="/sigaa/primefaces_resource/1.1/primefaces/core/core.js"></script>
+		<script type="text/javascript" src="/sigaa/primefaces_resource/1.1/primefaces/dialog/dialog.js"></script>
+		<script type="text/javascript" src="/sigaa/primefaces_resource/1.1/primefaces/button/button.js"></script>
+        
+		<link rel="stylesheet" type="text/css" href="/sigaa/ava/primefaces/redmond/skin.css" />
+		<link rel="stylesheet" media="print" href="/shared/css/ufrn_print.css"/>
+		
+		<link rel="stylesheet" type="text/css" media="print" href="/sigaa/cssBundles/N1565557408/ava/css/ava_print.css" />
+
+						
+		<script type="text/javascript">
+
+			// String contendo o nome da turma.
+			var auxNomeTurma = null;
+	
+			/* Configura o layout com JQuery-UI. */
+			var myLayout;
+			
+			J("document").ready(function () {
+				//setTimeout('montaLayout()', 20);
+				montaLayout();
+	
+				Relogio.init(90);
+	
+				esconderLoading();
+			});
+			
+			function esconderLoading () {
+				J("#dialog").css("display","none");
+				J("#mascara").css("display","none");
+			}
+	
+			function exibirLoading () {
+				J("#dialog").css("display","block");
+				J("#mascara").css("display","block");
+			}
+
+			function montaLayout(){
+
+				J('#baseLayout').height(document.documentElement.clientHeight + 13);
+				
+				myLayout = J("#baseLayout").layout({
+					name : "asd",
+					minWidth: 500,
+					defaults: {
+						size: "auto",
+						spacing_open: 5,
+						togglerLength_open: 0,
+						resizable: false,
+						slidable: false
+					}, north: {
+						size:
+							48
+							
+					}, south: {
+						size: 25
+					}, west: {
+						size: 190
+					}, east: {
+						size: 225,
+						togglerLength_closed: -1,
+						spacing_closed: 30,
+						togglerTip_closed: "Abrir barra lateral",
+						fxName: "drop",
+						fxSpeed: "fast",
+						togglerClass: "botaoDireita"
+					}, center: {
+					}
+				});
+				
+				myLayout.addToggleBtn( "#toggleDireita", "east" );
+
+				J("#conteudo").css("z-index", "1");
+				J("#cabecalho").css("z-index", "999");
+
+				corrigeNomeTurma ();
+				
+				window.onresize = function () {
+					J('#baseLayout').height(document.documentElement.clientHeight);
+					corrigeNomeTurma ();
+				};
+			}
+
+			function corrigeNomeTurma () {
+				var linkNomeTurma = J("#linkNomeTurma");
+				
+				if (linkNomeTurma != null){
+
+					if (auxNomeTurma == null)
+						auxNomeTurma = linkNomeTurma.html();
+
+					var arrayNomeTurma = auxNomeTurma.split(" ");
+					
+					var espacoRestante =
+						J("body").attr("clientWidth") - (
+							J("#menuTurmaVirtual").attr("clientWidth") +
+							J("#painelDadosUsuario").attr("clientWidth") +
+							J("#linkCodigoTurma").attr("clientWidth") +
+							J("#linkPeriodoTurma").attr("clientWidth")
+							+ 30 // Margem
+						);
+				
+					linkNomeTurma.html(arrayNomeTurma.join(" "));
+
+					var adicionarRtc = false;
+					
+					if (espacoRestante > 0 && espacoRestante < linkNomeTurma.attr("clientWidth"))
+						adicionarRtc = true;
+					
+					while (arrayNomeTurma.length > 0 && espacoRestante > 0 && espacoRestante < linkNomeTurma.attr("clientWidth")){
+						arrayNomeTurma.pop();
+						linkNomeTurma.html(arrayNomeTurma.join(" ") + (adicionarRtc ? " ..." : ""));
+					}
+				}
+			}
+
+			var subMenuEscondido = true;
+
+			var podeAlternarSubMenu = true;
+			
+			function toggleSubMenuTurma(){
+				if (podeAlternarSubMenu){ 
+					if (subMenuEscondido)
+						exibeSubMenu ();
+					else
+						escondeSubMenu ();
+				}
+
+				podeAlternarSubMenu = true;
+			}
+			
+			function exibeSubMenu (){
+				jQuery("#painel-usuario").show("fast");
+				subMenuEscondido = false;
+				document.getElementById("auxEsconderSubMenu").focus();
+				document.getElementById("formAcoesTurma:botaoExibirOpcoes").style.background = "#FFF";
+			}
+
+			function escondeSubMenu (){
+				jQuery("#painel-usuario").hide("fast");
+				subMenuEscondido = true;
+				document.getElementById("formAcoesTurma:botaoExibirOpcoes").style.background = 'url("images/ui-bg_glass_85_e8eef3_1x400.png") repeat-x scroll 50% 50% #E8EEF3';
+				setTimeout(function () {podeAlternarSubMenu = true;}, 100)
+			}
+
+			function exibirMenuModulos () {
+				dialogModulos.show();
+				return false;
+			}
+		</script>
+    </head>
+
+	<body>
+		<div id="baseLayout" style="width:100%;position:relative;">
+		
+		<div id="dialog">
+			<br/><br/>
+			<p>Por favor, aguarde enquanto a p&#225;gina &#233; gerada ...</p><br/><br/>
+			<img src="/sigaa/img/loading.gif" />
+		</div>
+		<div id="mascara" style="width:2000px;height:2000px;"></div>
+		
+		
+	
+		
+			
+		
+	
+		
+		
+			
+		
+		
+		
+		<div id="j_id_jsp_64093412_4" title="Trocar de Turma"><span class="linkTurma" style="font-weight:bold;text-align:center;margin-top:10px;margin-bottom:10px;font-size:10pt;display:block;">Selecione uma das turmas abaixo para acess&aacute;-la:</span>
+<form id="formTurma" name="formTurma" method="post" action="/sigaa/ava/index.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formTurma" value="formTurma" />
+
+<script type="text/javascript" language="Javascript">function dpf(f) {var adp = f.adp;if (adp != null) {for (var i = 0;i < adp.length;i++) {f.removeChild(adp[i]);}}};function apf(f, pvp) {var adp = new Array();f.adp = adp;var i = 0;for (k in pvp) {var p = document.createElement("input");p.type = "hidden";p.name = k;p.value = pvp[k];f.appendChild(p);adp[i++] = p;}};function jsfcljs(f, pvp, t) {apf(f, pvp);var ft = f.target;if (t) {f.target = t;}f.submit();f.target = ft;dpf(f);};</script>
+<a href="#" onclick="var a=function(){return permitirEscolhaTurma();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:j_id_jsp_64093412_7':'formTurma:j_id_jsp_64093412_7','idTurma':'276514'},'');}return false};return (a()==false) ? false : b();" class="linkTurma">
+							
+							<span style="display:inline-block;width:97%;height:16px;overflow:hidden;vertical-align:middle;color:#003390;font-size:9pt;background:url('/sigaa/img/avancar.gif') #F0F0F0 no-repeat right;padding:5px;">
+								MAT0057 - FUNDAMENTOS ELEMENTARES DA MATEM&Aacute;TICA - Turma: 01 (2023.1)
+							</span>
+						</a><a href="#" onclick="var a=function(){return permitirEscolhaTurma();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:j_id_jsp_64093412_7j_id_1':'formTurma:j_id_jsp_64093412_7j_id_1','idTurma':'280313'},'');}return false};return (a()==false) ? false : b();" class="linkTurma">
+							
+							<span style="display:inline-block;width:97%;height:16px;overflow:hidden;vertical-align:middle;color:#003390;font-size:9pt;background:url('/sigaa/img/avancar.gif')  no-repeat right;padding:5px;">
+								COMP0481 - M&Eacute;TODOS E T&Eacute;CNICAS DE PESQUISA PARA COMPUTA&Ccedil;&Atilde;O - Turma: 01 (2023.1)
+							</span>
+						</a><a href="#" onclick="var a=function(){return permitirEscolhaTurma();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:j_id_jsp_64093412_7j_id_2':'formTurma:j_id_jsp_64093412_7j_id_2','idTurma':'280329'},'');}return false};return (a()==false) ? false : b();" class="linkTurma">
+							
+							<span style="display:inline-block;width:97%;height:16px;overflow:hidden;vertical-align:middle;color:#003390;font-size:9pt;background:url('/sigaa/img/avancar.gif') #F0F0F0 no-repeat right;padding:5px;">
+								COMP0395 - PROGRAMA&Ccedil;&Atilde;O ORIENTADA A OBJETOS - Turma: 01 (2023.1)
+							</span>
+						</a><a href="#" onclick="var a=function(){return permitirEscolhaTurma();};var b=function(){if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formTurma'),{'formTurma:j_id_jsp_64093412_7j_id_3':'formTurma:j_id_jsp_64093412_7j_id_3','idTurma':'278551'},'');}return false};return (a()==false) ? false : b();" class="linkTurma">
+							
+							<span style="display:inline-block;width:97%;height:16px;overflow:hidden;vertical-align:middle;color:#003390;font-size:9pt;background:url('/sigaa/img/avancar.gif')  no-repeat right;padding:5px;">
+								ADM0177 - SOCIOLOGIA DAS ORGANIZA&Ccedil;&Otilde;ES - Turma: 02 (2023.1)
+							</span>
+						</a>
+					
+						
+					
+						
+					
+						
+					
+						
+					
+					<center>
+						<div id="MensagemCarregamento" >
+							<br/><br/>
+							<p>Por favor, aguarde enquanto carregamos a p&#225;gina ...</p><br/><br/>
+							<img src="/sigaa/img/loading.gif" />
+						</div>
+					</center>	
+				<input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id4" />
+</form></div><script type="text/javascript">dialogTurmas = new PrimeFaces.widget.Dialog('j_id_jsp_64093412_4',{autoOpen:false,minHeight:0,width:900,height:300,modal: true});</script>
+		
+	
+		
+		<style>
+	#panelPerfilContentDiv {
+		text-align:left;
+	}
+	
+	#panelPerfilContentDiv h1 {
+		font-size:9pt;
+		font-weight:bold;
+		padding:3px;
+		background:#DFE8F6;
+		margin-top:20px;
+		margin-bottom:10px;
+	}
+</style>
+
+
+<input type="submit" id="bVisualizarPerfil" style="display:none;" onclick="dialogPerfil.show();return false;"/>
+
+
+<div id="j_id_jsp_64093412_11" title="Perfil do Discente"><span id="basePanelPerfil">O usu&aacute;rio selecionado n&atilde;o &eacute; um discente.</span></div><script type="text/javascript">dialogPerfil = new PrimeFaces.widget.Dialog('j_id_jsp_64093412_11',{autoOpen:false,minHeight:0,width:530,height:400,modal: true});</script>
+		
+		
+		<input type="submit" id="bVisualizarPerfil" style="display:none;" onclick=""/>
+
+
+<div id="j_id_jsp_64093412_30" title="M&oacute;dulos do SIGAA">
+	<div id="menu_principal" class="popup">
+		<div id="modulos">
+	
+	<h2>Menu Principal</h2>
+	
+	<ul>
+		
+		
+		
+			<li class="infantil off"> 
+				
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >Infantil</span></a>
+			</li>
+		
+		
+			<li class="medio off"> <a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >Fundamental e M&#233;dio</span></a> </li>
+		
+		
+			<li class="tecnico off">
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+					T&#233;cnico</span></a>
+			</li>
+		
+		
+			<li class="formacao_complementar off">
+				
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+					Forma&#231;&#227;o Complementar</span></a>
+			</li>
+		
+		
+			<li class="graduacao off">
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+					Gradua&#231;&#227;o</span></a>
+			</li>
+		
+		
+			<li class="lato_sensu off">
+			<!-- //MUDANCA #27680 - Criar permiss&#227;o ACESSO TUTOR LATO -->
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" > 
+					Lato Sensu</span></a>
+			</li>
+		
+		
+			<li class="stricto_sensu off">
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+					Stricto Sensu</span></a>
+			</li>
+		
+		
+			<li class="pesquisa off">
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+					Pesquisa</span></a>
+			</li>
+		
+		
+			<li class="extensao off">
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+					Extens&#227;o</span></a>
+			</li>
+		
+		
+			<li class="monitoria off">
+				
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+					Monitoria</span></a>
+			</li>
+		
+		
+			<li class="acoes_associadas off">
+				
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+					A&#231;&#245;es Acad&#234;micas Integradas</span></a>
+			</li>
+		
+		
+			<li class="ead off"> 
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+					Ensino a Dist&#226;ncia</span></a> 
+			</li>
+		
+		
+			<li class="sae off"> 
+				 
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+					Assist&#234;ncia ao Estudante</span></a> 
+			</li>
+		
+		
+			<li class="ouvidoria off"> 
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+					Ouvidoria</span></a> 
+			</li>
+		
+		
+			<li class="ambiente_virtual off"> 
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+					Ambientes Virtuais</span></a> 
+			</li>
+		
+		
+			<li class="prodocente off">
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+					Produ&#231;&#227;o Intelectual</span></a> 
+			</li>
+		
+		
+			<li class="biblioteca off">
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+					Biblioteca</span></a> 
+			</li>
+		
+		
+			<li class="diploma off">
+				
+				
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+					Diplomas</span></a> 
+			</li>
+		
+		
+			<li class="convenio_estagio off">
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+					Concess&#227;o de Est&#225;gio</span></a> 
+			</li>		
+		
+		
+			<li class="saude off">
+				
+				
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+					Resid&#234;ncias em Sa&#250;de</span></a> 
+			</li>
+		
+		
+			<li class="vestibular off"> 
+				
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+					Vestibular</span></a> 
+			</li>
+		
+		
+			<li class="infra_fisica off"> 
+				
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" > 
+					Gest&#227;o de Espa&#231;os F&#237;sicos</span></a> 
+			</li>
+		
+		
+			<li class="nee off"> 
+				
+				
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" > 
+				
+					NEE</span></a> 
+			</li>
+		
+		
+			<li class="administracao off">
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+					Administra&#231;&#227;o do Sistema</span></a>
+			</li>
+		
+		
+			<li class="pap off">
+				
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+					Prog. de Atual. Pedag&#243;gica
+				</span></a> 
+			</li>
+		
+		<!-- //MUDANCA #51523 -->
+		
+			<li class="externo off">
+				<a href="#" > Acesso Externo</a>
+			</li>
+		
+		
+			<li class="sipac off">
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+					SIPAC<br />
+					<span style="font-size: 0.85em;">(Administrativo)</span> 
+				</span></a>
+			</li>
+		
+		
+			<li class="sigrh off">
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+					SIGRH <br />
+					<span style="font-size: 0.8em;">(Recursos Humanos)</span> 
+				</span></a>
+			</li>
+		
+<!-- 	// MUDANCA #42439 - desabilitar o click caso n&#227;o tenha permissao -->
+		
+			<li class="sigadmin off">
+				<a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+				SIGAdmin
+				</span></a>
+			</li>
+		
+		<div class="clear"></div>
+		<br />
+		
+	</ul>
+	
+	<div class="clear"></div>
+	<br />
+	
+</div>
+
+<div id="portais">
+	<h2> Portais </h2>
+	<ul>
+		
+		
+			<li class="docente off"> <a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+				Portal do Docente</span></a>
+			</li>
+		
+		
+			<li class="discente on"> 
+				<a href="/sigaa/verPortalDiscente.do">
+					Portal Discente
+				</a> 
+			</li>
+		
+		
+			<li class="portal_lato off"> <a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" > 
+				Portal Coord. <br/> Lato Sensu</span></a></li>
+		
+		
+			<li class="portal_stricto off"> <a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" > 
+				Portal Coord. <br/> Stricto Sensu</span></a></li>
+		
+		
+		
+		
+			<li class="portal_graduacao off"> <a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" > 
+				Portal Coord. Gradua&#231;&#227;o</span></a></li>
+		
+		
+			<li class="tutor off"> <a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" > 
+				Portal Coord. Polo</span></a> </li>
+		
+		
+			<li class="tutor off"> <a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" > 
+				Portal do Tutor</span></a> </li>
+		
+		
+			<li class="portal_reitor off"> <a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+				CPDI</span></a></li>
+		
+		
+			<li class="portal_reitor off"> <a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+				Portal da Reitoria</span></a> </li>
+		
+		
+			<li class="portal_avaliacao off"> <a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+				Portal da Avalia&#231;&#227;o Institucional</span></a> </li>
+		
+		
+			<li class="portal_relatorios off"> <a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+				Relat&#243;rios de Gest&#227;o</span></a> </li>
+		
+		
+		<li class="portal_concedente_estagio off"> <a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >			
+				Portal do Concedente de Est&#225;gio</span></a> </li>	
+		
+		
+			<li class="portal_preceptor_estagio off"> <a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+				Portal do Preceptor de Est&#225;gio</span></a> </li>
+		
+		
+			<li class="portal_familiar off"> <a href="#"><span class="tooltip" title="Voc&#234; n&#227;o possui permiss&#227;o para acessar esta op&#231;&#227;o" >
+				Portal do Familiar</span></a> </li>
+		
+		
+	</ul>
+</div>
+
+	</div>
+</div><script type="text/javascript">dialogModulos = new PrimeFaces.widget.Dialog('j_id_jsp_64093412_30',{autoOpen:false,minHeight:0,width:1000,height:465,modal: true});</script>
+		
+		
+		<style>
+
+	#panelNeeContentDiv {
+		text-align:left;
+	}
+	
+	#panelNeeContentDiv h1 {
+		font-size:9pt;
+		font-weight:bold;
+		padding:3px;
+		background:#DFE8F6;
+		margin-top:20px;
+		margin-bottom:10px;
+	}
+</style>
+
+
+<input id="bVisualizarParecerNee" type="submit" name="bVisualizarParecerNee" value="" style="display:none;" /><script type="text/javascript">Richfaces.componentControl.attachAvailable('#bVisualizarParecerNee','onclick','#panelNee','show')</script><div id="panelNee" style="display: none;"><input autocomplete="off" id="panelNeeOpenedState" name="panelNeeOpenedState" type="hidden" /><div class="rich-modalpanel panelPerfil" id="panelNeeContainer" style="position: absolute; display: none; z-index: 100; background-color: inherit;"><div class="rich-mpnl-mask-div-opaque rich-mpnl-mask-div" id="panelNeeDiv" style="z-index: -1;"><button class="rich-mpnl-button" id="panelNeeFirstHref"></button></div><div class="rich-mpnl-panel"><div class="rich-mp-container" id="panelNeeCDiv" style="position: absolute; left: 0px; top: 0px; z-index: 9;"><div class="rich-mpnl-shadow" id="panelNeeShadowDiv"></div><div class=" rich-mpnl-content" id="panelNeeContentDiv"><div class="rich-mpnl-text rich-mpnl-controls "><img id="hidelink_parecer" src="/sigaa/img/close.png" class="hidelink" /><script type="text/javascript">Richfaces.componentControl.attachAvailable('#hidelink_parecer','onclick','#panelNee','hide')</script></div><table border="0" cellpadding="0" cellspacing="0" class="rich-mp-content-table" id="panelNeeContentTable" style="width: 500px;height: 1px;"><tr style="height: 1%;"><td class="rich-mpnl-header-cell"><div class="rich-mpnl-text rich-mpnl-header " id="panelNeeHeader" style="white-space: nowrap;">PARECER SOBRE A NECESSIDADE EDUCACIONAL ESPECIAL DO DISCENTE</div></td></tr><tr style="height: 99%"><td class="rich-mpnl-body" valign="top">
+	
+		
+	
+	
+		
+	
+
+	<div style="width:100%; height: 350px; overflow: auto;">
+		<table width="100%">
+			<tr>
+				
+				<td>
+					<strong style="font-weight:bold;"></strong>
+					<h1>Dados do Discente</h1>
+					<strong style="font-weight:bold;">Curso:</strong> <em> </em><br/>
+					<strong style="font-weight:bold;">Matr&#237;cula:</strong> <em></em> <br/>
+					<strong style="font-weight:bold;">Usu&#225;rio:</strong> <em>Sem cadastro no sistema </em><br/>
+					<strong style="font-weight:bold;">E-mail:</strong> <em>Desconhecido</em>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h1>Tipo de Necessidade Educacional Especial </h1>
+		 			
+				</td>
+			</tr>	
+			<tr>
+				<td>
+					
+					<h1>Parecer a respeito da Necessidade Educacional do Aluno</h1>
+					
+					<textarea id="parecerComissao" name="parecerComissao" cols="70" rows="4" readonly="readonly"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="javascript://nop/" onclick="Mensagem.show(1,'codae.ufs@gmail.com');">
+						
+						<img src="/sigaa/img/email_go.png" alt="Enviar Mensagem" title="Enviar Mensagem"/> Enviar Mensagem 
+						
+					</a>
+				</td>	
+			</tr>	
+		</table>
+	</div>
+	<div style="width:100%;text-align:center;height:25px;background:#DFE8F6;vertical-align:middle;padding-top:5px;">
+		<input id="bFecharNee" type="submit" name="bFecharNee" value="Fechar" /><script type="text/javascript">Richfaces.componentControl.attachAvailable('#bFecharNee','onclick','#panelNee','hide')</script>
+	   
+			
+		
+	</div>
+
+</td></tr></table></div></div></div><div class="rich-mpnl-mask-div rich-mpnl-mask-div-transparent" id="panelNeeCursorDiv" style="z-index: -200;"><button class="rich-mpnl-button" id="panelNeeLastHref"></button></div><script type="text/javascript">new ModalPanel('panelNee',
+				{
+					width: -1,
+					height: -1,
+
+					minWidth: 500,
+					minHeight: -1,
+
+					resizeable: false,
+					moveable: true,
+
+					left: "auto",
+					top: "auto",
+
+					zindex: 100,onresize: '',onmove: '',onshow: '',onhide: '',onbeforeshow: '',onbeforehide: '',
+					domElementAttachment: "",				
+					keepVisualState: false,
+					showWhenRendered: false,
+					selectBehavior: "disable",
+
+					autosized: true,
+					overlapEmbedObjects: false});</script></div><script type="text/javascript"></script></div>
+<form id="formMenu" name="formMenu" method="post" action="/sigaa/ava/index.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formMenu" value="formMenu" />
+
+		
+	<div id="barraEsquerda" class="ui-layout-west">
+	
+		<table style="width:100%;border-bottom:1px solid #99BBE8;" cellspacing="0"><tr><td style="color:#15428B;background:url('/sigaa/ava/img/painel_bg.png');height:24px;text-align:center;font-weight:bold;font-size:8pt;">Menu Turma Virtual</td></tr></table>
+		
+		<div class="rich-panelbar rich-panelbar-b " id="formMenu:j_id_jsp_64093412_43" style="padding: 0px; height: 100%; width: 100%; "><div class="rich-panelbar rich-panelbar-interior " id="formMenu:j_id_jsp_64093412_44"><div class="rich-panelbar-header  itemMenuHeaderTurma" style=";">Turma</div><div class="rich-panelbar-header-act  itemMenuHeaderTurma  " style=";;;;display: none;">Turma</div><div class="rich-panelbar-content-exterior" style="display: none; width: 100%;"><table cellpadding="0" cellspacing="0" style="height: 100%;" width="100%"><tbody><tr><td class="rich-panelbar-content  " style=";overflow:hidden;"><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formMenu'),{'formMenu:j_id_jsp_64093412_45':'formMenu:j_id_jsp_64093412_45'},'');}return false">
+					<div class="itemMenu">Principal</div>
+				</a><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formMenu'),{'formMenu:j_id_jsp_64093412_46':'formMenu:j_id_jsp_64093412_46'},'');}return false">
+						<div class="itemMenu">Gerenciar Perfil</div>
+					</a><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formMenu'),{'formMenu:j_id_jsp_64093412_47':'formMenu:j_id_jsp_64093412_47'},'');}return false">
+							<div class="itemMenu">Plano de Curso</div>
+						</a><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formMenu'),{'formMenu:j_id_jsp_64093412_52':'formMenu:j_id_jsp_64093412_52'},'');}return false">
+					<div class="itemMenu">Participantes</div>
+				</a><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formMenu'),{'formMenu:j_id_jsp_64093412_53':'formMenu:j_id_jsp_64093412_53'},'');}return false">
+					<div class="itemMenu">Visualizar Programa</div>
+				</a><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formMenu'),{'formMenu:j_id_jsp_64093412_55':'formMenu:j_id_jsp_64093412_55'},'');}return false">
+					<div class="itemMenu">F&#243;runs</div>
+				</a><a href="#" id="formMenu:j_id_jsp_64093412_56" name="formMenu:j_id_jsp_64093412_56" onclick="A4J.AJAX.Submit('formMenu',event,{'oncomplete':function(request,event,data){window.open('/shared/EntrarChat?idchat=278551&amp;idusuario=88801&amp;passkey=85dbc6506982cc4a899987719b153da8f4000799&amp;chatName=SOCIOLOGIA DAS ORGANIZA&Ccedil;&Otilde;ES&amp;origem=turmaVirtual', 'chat_278551', 'height=485,width=685,location=0,resizable=0'); return false;},'similarityGroupingId':'formMenu:j_id_jsp_64093412_56','parameters':{'formMenu:j_id_jsp_64093412_56':'formMenu:j_id_jsp_64093412_56'} ,'containerId':'j_id_jsp_64093412_0'} );return false;">
+					<div class="itemMenu">Chat da Turma</div>
+				</a><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formMenu'),{'formMenu:j_id_jsp_64093412_57':'formMenu:j_id_jsp_64093412_57'},'');}return false">
+					<div class="itemMenu">Chats Agendados</div>
+				</a><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formMenu'),{'formMenu:j_id_jsp_64093412_58':'formMenu:j_id_jsp_64093412_58'},'');}return false">
+					<div class="itemMenu">Not&#237;cias</div>
+				</a></td></tr></tbody></table></div></div><div class="rich-panelbar rich-panelbar-interior " id="formMenu:j_id_jsp_64093412_63"><div class="rich-panelbar-header  itemMenuHeaderAlunos" style=";">Alunos</div><div class="rich-panelbar-header-act  itemMenuHeaderAlunos  " style=";;;;display: none;">Alunos</div><div class="rich-panelbar-content-exterior" style="display: none; width: 100%;"><table cellpadding="0" cellspacing="0" style="height: 100%;" width="100%"><tbody><tr><td class="rich-panelbar-content  " style=";overflow:hidden;"><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formMenu'),{'formMenu:j_id_jsp_64093412_66':'formMenu:j_id_jsp_64093412_66'},'');}return false">
+					<div class="itemMenu">Frequ&#234;ncia</div>
+				</a><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formMenu'),{'formMenu:j_id_jsp_64093412_67':'formMenu:j_id_jsp_64093412_67'},'');}return false">
+					<div class="itemMenu">Ver Grupo</div>
+				</a><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formMenu'),{'formMenu:j_id_jsp_64093412_68':'formMenu:j_id_jsp_64093412_68'},'');}return false">
+					<div class="itemMenu">Ver Notas</div>
+				</a></td></tr></tbody></table></div></div><div class="rich-panelbar rich-panelbar-interior " id="formMenu:j_id_jsp_64093412_83"><div class="rich-panelbar-header  itemMenuHeaderMateriais" style=";">Materiais</div><div class="rich-panelbar-header-act  itemMenuHeaderMateriais  " style=";;;;display: none;">Materiais</div><div class="rich-panelbar-content-exterior" style="display: none; width: 100%;"><table cellpadding="0" cellspacing="0" style="height: 100%;" width="100%"><tbody><tr><td class="rich-panelbar-content  " style=";overflow:hidden;"><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formMenu'),{'formMenu:j_id_jsp_64093412_84':'formMenu:j_id_jsp_64093412_84'},'');}return false">
+					<div class="itemMenu">Conte&#250;do/P&#225;gina web</div>
+				</a><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formMenu'),{'formMenu:j_id_jsp_64093412_87':'formMenu:j_id_jsp_64093412_87'},'');}return false">
+					<div class="itemMenu">Refer&#234;ncias</div>
+				</a><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formMenu'),{'formMenu:j_id_jsp_64093412_89':'formMenu:j_id_jsp_64093412_89'},'');}return false">
+					<div class="itemMenu">V&#237;deos</div>
+				</a></td></tr></tbody></table></div></div><div class="rich-panelbar rich-panelbar-interior " id="formMenu:j_id_jsp_64093412_90"><div class="rich-panelbar-header  itemMenuHeaderAtividades" style=";">Atividades</div><div class="rich-panelbar-header-act  itemMenuHeaderAtividades  " style=";;;;display: none;">Atividades</div><div class="rich-panelbar-content-exterior" style="display: none; width: 100%;"><table cellpadding="0" cellspacing="0" style="height: 100%;" width="100%"><tbody><tr><td class="rich-panelbar-content  " style=";overflow:hidden;"><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formMenu'),{'formMenu:j_id_jsp_64093412_91':'formMenu:j_id_jsp_64093412_91'},'');}return false">
+					<div class="itemMenu">Avalia&#231;&#245;es</div>
+				</a><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formMenu'),{'formMenu:j_id_jsp_64093412_92':'formMenu:j_id_jsp_64093412_92'},'');}return false">
+					<div class="itemMenu">Enquetes</div>
+				</a><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formMenu'),{'formMenu:j_id_jsp_64093412_93':'formMenu:j_id_jsp_64093412_93'},'');}return false">
+					<div class="itemMenu">Tarefas</div>
+				</a><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formMenu'),{'formMenu:j_id_jsp_64093412_95':'formMenu:j_id_jsp_64093412_95'},'');}return false">
+					<div class="itemMenu">Question&#225;rios</div>
+				</a></td></tr></tbody></table></div></div><div class="rich-panelbar rich-panelbar-interior " id="formMenu:j_id_jsp_64093412_114"><div class="rich-panelbar-header  itemMenuHeaderAjuda" style=";">Ajuda</div><div class="rich-panelbar-header-act  itemMenuHeaderAjuda  " style=";;;;display: none;">Ajuda</div><div class="rich-panelbar-content-exterior" style="display: none; width: 100%;"><table cellpadding="0" cellspacing="0" style="height: 100%;" width="100%"><tbody><tr><td class="rich-panelbar-content  " style=";overflow:hidden;"><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formMenu'),{'formMenu:j_id_jsp_64093412_115':'formMenu:j_id_jsp_64093412_115'},'_BLANK');}return false">
+					<div class="itemMenu">Manual da Turma Virtual</div>
+				</a></td></tr></tbody></table></div></div><input autocomplete="off" id="formMenu:j_id_jsp_64093412_43_panelBarInput" name="formMenu:j_id_jsp_64093412_43" type="hidden" value="formMenu:j_id_jsp_64093412_44" /><script type="text/javascript">new Richfaces.PanelBar('formMenu:j_id_jsp_64093412_43',{'mousemove':'','items':[{'onleave':'','id':'formMenu:j_id_jsp_64093412_44','onenter':''} ,{'onleave':'','id':'formMenu:j_id_jsp_64093412_63','onenter':''} ,{'onleave':'','id':'formMenu:j_id_jsp_64093412_83','onenter':''} ,{'onleave':'','id':'formMenu:j_id_jsp_64093412_90','onenter':''} ,{'onleave':'','id':'formMenu:j_id_jsp_64093412_114','onenter':''} ] ,'ajax':false,'mouseout':'','onclick':'','mouseover':'','onitemchange':'','onitemchanged':''} );</script></div>
+	</div>
+
+	
+--<input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id4" />
+</form>
+
+
+
+
+
+		
+		
+		
+		
+
+		
+		
+		
+
+
+<div id="barraDireita" class="ui-layout-east">
+	<table style="width:100%;border-bottom:1px solid #99BBE8;" cellspacing="0"><tr><td style="color:#15428B;background:url('/sigaa/ava/img/painel_bg.png');height:24px;text-align:right;font-weight:bold;font-size:8pt;padding-right:5px;" id="toggleDireita"><img src="/sigaa/ava/img/painel_seta_dir.png" /></td></tr></table>
+	
+	
+	
+	
+	<script type="text/javascript" src="/shared/javascript/paineis/painel_generico.js"></script>
+	<script type="text/javascript">
+  	function exibirPainel(id) {
+  			PainelDetalhar.show('/sigaa/pid/atendimento/view_painel.jsf?id='+id, 'Visualizar Hor&#225;rio', 740, 595);
+  	}
+	</script>
+	
+	<div class="rich-stglpanel blocoDireita" id="j_id_jsp_64093412_119"><script type="text/javascript">SimpleTogglePanelManager.add(new SimpleTogglePanel("j_id_jsp_64093412_119", 
+            													"true",{onexpand: '',oncollapse: ''}
+            													
+            							 ));</script><form id="j_id_jsp_64093412_119:_form" name="j_id_jsp_64093412_119:_form" method="post" style="margin:0; padding:0; display: inline;" action="/sigaa/ava/index.jsf"><div class="rich-stglpanel-header headerBloco" id="j_id_jsp_64093412_119_header" onclick="SimpleTogglePanelManager.toggleOnClient(event,'j_id_jsp_64093412_119');"><div class="rich-stglpanel-marker"><div class="rich-stglpnl-marker" id="j_id_jsp_64093412_119_switch_on"><img src="/sigaa/ava/img/painel_seta_cima.png" /></div><div class="rich-stglpnl-marker" id="j_id_jsp_64093412_119_switch_off" style="display: none"><img src="/sigaa/ava/img/painel_seta_baixo.png" /></div></div>Not&iacute;cias&#160;</div><div style="display: none;"><input autocomplete="off" id="j_id_jsp_64093412_119_input" name="j_id_jsp_64093412_119" type="hidden" value="true" /></div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id4" /></form><div class="rich-stglpanel-body " id="j_id_jsp_64093412_119_body">
+        
+			
+		
+		
+			
+		
+		
+        
+			
+				28/09/2023 01:15<br>
+				<i>Aviso </i> <br>
+				
+<form id="j_id_jsp_64093412_122" name="j_id_jsp_64093412_122" method="post" action="/sigaa/ava/index.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_id_jsp_64093412_122" value="j_id_jsp_64093412_122" />
+
+				<input type="hidden" name="id" value="64639017"/>
+				<a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('j_id_jsp_64093412_122'),{'j_id_jsp_64093412_122:j_id_jsp_64093412_123':'j_id_jsp_64093412_122:j_id_jsp_64093412_123'},'');}return false">(Visualizar)</a><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id4" />
+</form>
+				<br>
+			
+					
+		
+    </div></div><div class="rich-stglpanel blocoDireita" id="j_id_jsp_64093412_124"><script type="text/javascript">SimpleTogglePanelManager.add(new SimpleTogglePanel("j_id_jsp_64093412_124", 
+            													"true",{onexpand: '',oncollapse: ''}
+            													
+            							 ));</script><form id="j_id_jsp_64093412_124:_form" name="j_id_jsp_64093412_124:_form" method="post" style="margin:0; padding:0; display: inline;" action="/sigaa/ava/index.jsf"><div class="rich-stglpanel-header headerBloco" id="j_id_jsp_64093412_124_header" onclick="SimpleTogglePanelManager.toggleOnClient(event,'j_id_jsp_64093412_124');"><div class="rich-stglpanel-marker"><div class="rich-stglpnl-marker" id="j_id_jsp_64093412_124_switch_on"><img src="/sigaa/ava/img/painel_seta_cima.png" /></div><div class="rich-stglpnl-marker" id="j_id_jsp_64093412_124_switch_off" style="display: none"><img src="/sigaa/ava/img/painel_seta_baixo.png" /></div></div>Enquete&#160;</div><div style="display: none;"><input autocomplete="off" id="j_id_jsp_64093412_124_input" name="j_id_jsp_64093412_124" type="hidden" value="true" /></div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id4" /></form><div class="rich-stglpanel-body " id="j_id_jsp_64093412_124_body">
+   		
+			
+		
+		
+			
+		
+		
+		
+		
+        
+	
+		
+			<center>Nenhuma enquete encontrada</center>
+		
+    </div></div><div class="rich-stglpanel blocoDireita" id="j_id_jsp_64093412_132"><script type="text/javascript">SimpleTogglePanelManager.add(new SimpleTogglePanel("j_id_jsp_64093412_132", 
+            													"true",{onexpand: '',oncollapse: ''}
+            													
+            							 ));</script><form id="j_id_jsp_64093412_132:_form" name="j_id_jsp_64093412_132:_form" method="post" style="margin:0; padding:0; display: inline;" action="/sigaa/ava/index.jsf"><div class="rich-stglpanel-header headerBloco" id="j_id_jsp_64093412_132_header" onclick="SimpleTogglePanelManager.toggleOnClient(event,'j_id_jsp_64093412_132');"><div class="rich-stglpanel-marker"><div class="rich-stglpnl-marker" id="j_id_jsp_64093412_132_switch_on"><img src="/sigaa/ava/img/painel_seta_cima.png" /></div><div class="rich-stglpnl-marker" id="j_id_jsp_64093412_132_switch_off" style="display: none"><img src="/sigaa/ava/img/painel_seta_baixo.png" /></div></div>Atividades&#160;</div><div style="display: none;"><input autocomplete="off" id="j_id_jsp_64093412_132_input" name="j_id_jsp_64093412_132" type="hidden" value="true" /></div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id4" /></form><div class="rich-stglpanel-body " id="j_id_jsp_64093412_132_body">
+    	
+			
+		
+		
+			
+		
+		
+        
+			<ul class="menu-direita">
+				
+					<li>
+						<span class="data">28/09</span>
+						<span class="descricao">Nova Not&#237;cia: Aviso</span>
+					</li>
+				
+					<li>
+						<span class="data">27/09</span>
+						<span class="descricao">Novo Conte&#250;do: Link do document&#225;rio GIG - A uberiza&#231;&#227;o do trabalho</span>
+					</li>
+				
+					<li>
+						<span class="data">27/09</span>
+						<span class="descricao">Novo Arquivo: Cap&#237;tulo 8.pdf</span>
+					</li>
+				
+					<li>
+						<span class="data">27/09</span>
+						<span class="descricao">Novo Arquivo: Diversidade e Inclus&#227;o  nas Organiza&#231;&#245;es.pdf</span>
+					</li>
+				
+					<li>
+						<span class="data">20/09</span>
+						<span class="descricao">Novo Arquivo: Precariza&#231;&#227;o e Uberiza&#231;&#227;o do Trabalho.pdf</span>
+					</li>
+				
+			</ul>
+		
+		
+    </div></div><div class="rich-stglpanel blocoDireita" id="j_id_jsp_64093412_135"><script type="text/javascript">SimpleTogglePanelManager.add(new SimpleTogglePanel("j_id_jsp_64093412_135", 
+            													"true",{onexpand: '',oncollapse: ''}
+            													
+            							 ));</script><form id="j_id_jsp_64093412_135:_form" name="j_id_jsp_64093412_135:_form" method="post" style="margin:0; padding:0; display: inline;" action="/sigaa/ava/index.jsf"><div class="rich-stglpanel-header headerBloco" id="j_id_jsp_64093412_135_header" onclick="SimpleTogglePanelManager.toggleOnClient(event,'j_id_jsp_64093412_135');"><div class="rich-stglpanel-marker"><div class="rich-stglpnl-marker" id="j_id_jsp_64093412_135_switch_on"><img src="/sigaa/ava/img/painel_seta_cima.png" /></div><div class="rich-stglpnl-marker" id="j_id_jsp_64093412_135_switch_off" style="display: none"><img src="/sigaa/ava/img/painel_seta_baixo.png" /></div></div>Avalia&ccedil;&otilde;es&#160;</div><div style="display: none;"><input autocomplete="off" id="j_id_jsp_64093412_135_input" name="j_id_jsp_64093412_135" type="hidden" value="true" /></div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id4" /></form><div class="rich-stglpanel-body " id="j_id_jsp_64093412_135_body">
+    	
+			
+		
+		
+			
+		
+		
+		
+		
+		
+			<ul class="menu-direita">
+				
+					<li style="text-align: center"><span class="data">18/07 17:00</span><br/> <span class="descricao">1&#170; Avalia&#231;&#227;o</span> </li>
+				
+					<li style="text-align: center"><span class="data">29/08 17:00</span><br/> <span class="descricao">2&#170; Avalia&#231;&#227;o</span> </li>
+				
+					<li style="text-align: center"><span class="data">03/10 17:00</span><br/> <span class="descricao">3&#170; Avalia&#231;&#227;o</span> </li>
+				
+			</ul>
+		
+    </div></div>
+    
+    
+    
+    
+    
+    
+	    
+</div>
+		
+		
+		
+		<div id="cabecalho" class="ui-layout-north" style="overflow:visible;">
+			<div id="info-sistema">
+				<h1> <span>UFS - SIGAA -</span></h1>
+				<h3>Sistema Integrado de Gest&#227;o de Atividades Acad&#234;micas </h3>
+			</div>
+			
+			
+			
+				<div id="tempoSessao"></div>
+				
+				<span id="sair-sistema">
+					<a href="/sigaa/logar.do?dispatch=logOff">SAIR</a>
+				</span>
+			
+			
+			
+			
+	
+			<div style="position:relative;">
+				
+					<div id="painel-usuario" style="height: 20px;position:absolute;z-index:888;top:23px;right:5px;border:1px solid #99BBE8;display:none;">
+						<div style="position:absolute;top:-4px;right:-1px;height:4px;background:#FFF;width:24px;border-right:1px solid #99BBE8;"></div>
+						<div id="menu-usuario" style="background:#FFF;">
+							<ul>
+								<li class="modulos">
+								
+									<span id="modulos">
+										<a href="#" onclick="return exibirMenuModulos ();"> M&#243;dulos </a>
+									</span>
+								
+								</li>
+								<li class="caixa-postal"><a href="/sigaa/abrirCaixaPostal.jsf?sistema=2" accesskey="C">Caixa Postal</a></li>
+								<li class="chamado">
+								
+									
+										<a href="javascript://nop/" onclick="alert('Caro aluno, em caso de d&#250;vidas em rela&#231;&#227;o ao uso do SIGAA, recorra &#224; coordena&#231;&#227;o do seu curso.\nEm caso de erro, envie uma mensagem para cosis@ufs.br (n&#227;o esquecendo de informar seu n&#250;mero de matr&#237;cula).');">Abrir Chamado</a>
+									
+									
+									
+								
+								</li>
+								
+									<li class="menus">
+										
+										
+										
+											<a href="/sigaa/verPortalDiscente.do">Menu Discente</a>
+										
+										
+									</li>
+								
+								
+								
+									<li class="dados-pessoais">
+										<a href="#" onclick="window.open('/sigaa/alterar_dados.jsf','','width=670,height=430, top=100, left=100, scrollbars' )">Alterar senha</a>
+									</li>
+								
+								<li class="ajuda">
+									<a href="/sigaa/manuais/index.jsp" id="show-ajuda" > Ajuda </a>
+								</li>
+							</ul>
+						</div>
+						
+						<div style="position:absolute;bottom:-6px;height:5px;width:100%;background:url('/sigaa/ava/img/sombrasubmenu.png');"></div>
+					</div>
+				
+					<div id="painelDadosUsuario" style="position:relative;margin-left:3px;display:inline-block;height:23px;vertical-align:middle;padding-right:3px;border-right:1px solid #666666;margin-top:2px;margin-right:3px;">
+						<p style="font-weight:bold;font-size:7pt;">
+							
+								PAULO HENRIQUE DOS SANTOS REIS
+								
+					 			
+					 				<a href="/sigaa/escolhaVinculo.do?dispatch=listar" style="font-size:6pt;">
+					 				<img src="/shared/img/group_go.png" alt="Alterar v&#237;nculo" title="Alterar v&#237;nculo" style="width:10px;" />
+					 				Alterar V&#237;nculo
+					 				</a>
+					 			
+							
+						</p>
+						
+						<div style="font-size:6pt;">
+							
+							DEPARTAMENTO DE COMPUTA&#199;&#195;O
+							
+								(11.21.01)
+							
+							
+							
+							
+								- Semestre atual: <strong style="font-weight:bold;">2023.1</strong>
+							
+						</div>
+					</div>
+				
+				
+				
+				<div id="nomeTurma" style="position:relative;display:inline-block;vertical-align:middle;padding-top:3px;">
+					<p id="linkCodigoTurma" style="display:inline-block;font-weight:bold;" title="SOCIOLOGIA DAS ORGANIZA&#199;&#213;ES">ADM0177 - </p>
+					<p id="linkNomeTurma" style="display:inline-block;font-weight:bold;" title="SOCIOLOGIA DAS ORGANIZA&#199;&#213;ES">SOCIOLOGIA DAS ORGANIZA&#199;&#213;ES</p>
+					<p id="linkPeriodoTurma" style="display:inline-block;font-weight:bold;" title="SOCIOLOGIA DAS ORGANIZA&#199;&#213;ES"> (2023.1 - T02)</p>
+				</div>
+				
+				<div id="menuTurmaVirtual" class="naoImprimir" style="position:absolute;right:5px;top:4px;">
+				
+				
+					
+						
+					
+						<form id="formAcessarMenu" action="" method="get" style="display:none;">
+							<input id="botaoAcessarMenu" type="submit" style="display:none;" />
+						</form>
+						
+						<script>
+							function clicarLinkMenu (endereco){
+								J("#formAcessarMenu").attr("action", "/sigaa/"+endereco+".do");
+								J("#botaoAcessarMenu").click();
+								return false;
+							}
+
+							function exibirPaginados () {
+								J("#formAcoesTurma\\:linkExibirPaginados").click();
+								return false;
+							}
+
+							function exibirEmLista () {
+								J("#formAcoesTurma\\:linkExibirEmLista").click();
+								return false;
+							}
+						</script>
+					
+					
+				
+					
+<form id="formAcoesTurma" name="formAcoesTurma" method="post" action="/sigaa/ava/index.jsf" enctype="application/x-www-form-urlencoded" style="text-align:right;">
+<input type="hidden" name="formAcoesTurma" value="formAcoesTurma" />
+<a id="formAcoesTurma:linkExibirPaginados" href="#" style="display:none;" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAcoesTurma'),{'formAcoesTurma:linkExibirPaginados':'formAcoesTurma:linkExibirPaginados','paginados':'true'},'');}return false"></a><a id="formAcoesTurma:linkExibirEmLista" href="#" style="display:none;" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAcoesTurma'),{'formAcoesTurma:linkExibirEmLista':'formAcoesTurma:linkExibirEmLista'},'');}return false"></a><button id="formAcoesTurma:botaoPortalDiscente" name="formAcoesTurma:botaoPortalDiscente" onclick="return clicarLinkMenu('verPortalDiscente');;PrimeFaces.ajax.AjaxRequest('/sigaa/ava/index.jsf',{formId:'formAcoesTurma',global:true},{'formAcoesTurma:botaoPortalDiscente':'formAcoesTurma:botaoPortalDiscente'});return false;" style="height:20px;margin:0px;border-radius:5px 0px 0px 5px;padding-left:0px;width:25px;border-right:0px;" title="Menu Discente" type="submit">pf-button</button><script type="text/javascript">widget_formAcoesTurma_botaoPortalDiscente = new PrimeFaces.widget.CommandButton('formAcoesTurma:botaoPortalDiscente', {text:false,icons:{primary:'botaoPortal'}});</script><button id="formAcoesTurma:botaoImprimir" name="formAcoesTurma:botaoImprimir" onclick="imprimir();;PrimeFaces.ajax.AjaxRequest('/sigaa/ava/index.jsf',{formId:'formAcoesTurma',global:true},{'formAcoesTurma:botaoImprimir':'formAcoesTurma:botaoImprimir'});return false;" style="height:20px;margin:0px;border-radius:0px;padding-left:0px;width:25px;border-right:0px;" title="Imprimir p&aacute;gina" type="submit">pf-button</button><script type="text/javascript">widget_formAcoesTurma_botaoImprimir = new PrimeFaces.widget.CommandButton('formAcoesTurma:botaoImprimir', {text:false,icons:{primary:'botaoImprimir'}});</script><button id="formAcoesTurma:visualizarPaginadas" name="formAcoesTurma:visualizarPaginadas" onclick="return exibirPaginados();;PrimeFaces.ajax.AjaxRequest('/sigaa/ava/index.jsf',{formId:'formAcoesTurma',global:true},{'formAcoesTurma:visualizarPaginadas':'formAcoesTurma:visualizarPaginadas'});return false;" style="height:20px;margin:0px;margin-right:5px;border-radius:0px 5px 5px 0px;padding-left:0px;width:25px;" title="Visualizar aulas paginadas" type="submit">pf-button</button><script type="text/javascript">widget_formAcoesTurma_visualizarPaginadas = new PrimeFaces.widget.CommandButton('formAcoesTurma:visualizarPaginadas', {text:false,icons:{primary:'botaoAulasPaginadas'}});</script><button id="formAcoesTurma:botaoTrocarTurma" name="formAcoesTurma:botaoTrocarTurma" onclick="dialogTurmas.show();;PrimeFaces.ajax.AjaxRequest('/sigaa/ava/index.jsf',{formId:'formAcoesTurma',global:true},{'formAcoesTurma:botaoTrocarTurma':'formAcoesTurma:botaoTrocarTurma'});return false;" style="height:20px;margin:0px;border-radius:5px 0px 0px 5px;border-right:0px;" title="Trocar de turma" type="submit">Trocar de Turma</button><script type="text/javascript">widget_formAcoesTurma_botaoTrocarTurma = new PrimeFaces.widget.CommandButton('formAcoesTurma:botaoTrocarTurma', {text:true,icons:{primary:'botaoTrocarTurma'}});</script><button id="formAcoesTurma:botaoExibirOpcoes" name="formAcoesTurma:botaoExibirOpcoes" onclick="toggleSubMenuTurma();return false;;PrimeFaces.ajax.AjaxRequest('/sigaa/ava/index.jsf',{formId:'formAcoesTurma',global:true},{'formAcoesTurma:botaoExibirOpcoes':'formAcoesTurma:botaoExibirOpcoes'});return false;" style="height:20px;margin:0px;border-radius:0px 5px 5px 0px;padding-left:0px;width:26px;" title="Op&ccedil;&otilde;es" type="submit">pf-button</button><script type="text/javascript">widget_formAcoesTurma_botaoExibirOpcoes = new PrimeFaces.widget.CommandButton('formAcoesTurma:botaoExibirOpcoes', {text:false,icons:{primary:'botaoOpcoesTurma'}});</script><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id4" />
+</form>
+					
+					<input id="auxEsconderSubMenu" style="width:1px;height:1px;border:none;background:none;color:none;" onblur="setTimeout(function () {podeAlternarSubMenu=false;escondeSubMenu();}, 100);" />
+				</div>
+			</div>
+			
+			
+			
+
+		</div>
+		
+<script type="text/javascript">
+
+function imprimir() {
+
+	var conteudo = jQuery("#conteudo").html();
+	J('#baseLayout').css('display', 'none');
+	J('body').css("background", "#FFF");
+
+	var botaoCancelar = "<div class='naoImprimir' style='width:210px;margin: 0 auto;margin-bottom:30px;'>"+
+							"<label>"+
+								"<span class='botao-pequeno'style='text-align:center' onclick='cancelarPrint();'>"+
+									"<a style='margin-left:-12px;'>Voltar para Turma<a/>"+
+								"</span>"+
+							"</label></div>";						
+	
+	J('body').append("<div id='impressao' style='clear:both;background:#FFF;margin:0px;padding:10px;height:100%;'></div>");
+	J('#impressao').css('display', 'block');
+	J('#impressao').html(botaoCancelar + conteudo);
+	window.print();
+	return false;
+} 
+
+function cancelarPrint() {
+	document.location.href = '/sigaa/ava/index.jsf'
+}
+
+
+var aviso = J("#MensagemCarregamento");
+aviso.hide();
+
+function permitirEscolhaTurma() {
+	
+	var turmas = J(".linkTurma");
+	
+	turmas.each(function() {
+		J(this).hide();
+	} );
+
+	aviso.show();
+}
+
+</script>	
+	
+		<div id="conteudo" class="ui-layout-center">
+		
+			
+			
+			
+
+
+<script src="/sigaa/javascript/encoding.js" type="text/javascript" ></script>
+
+
+					
+			
+				
+			
+		
+			
+	
+<form id="formAva" name="formAva" method="post" action="/sigaa/ava/index.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formAva" value="formAva" />
+
+		<script type="text/javascript" src="/sigaa/avaliacao/flowplayer/flowplayer-3.2.2.min.js"></script>
+
+
+
+<script src='/sigaa/ava/javascript/aulas.js'></script>
+
+<style type="text/css">
+	.acao-topico {
+		height:20px;
+	}
+
+	.acao-topico .baseAcaoTopico {
+		position:relative;
+		float:right;
+		width:100px;
+	}
+	
+	.acao-topico .baseAcaoTopico span span .yui-module, #auxAcaoTopico .baseAcaoTopico span span .yui-module {
+		width:180px;
+		left:-90px !important;
+		z-index:999!important;
+		text-align:left;
+	}
+	
+	#auxAcaoTopico .baseAcaoTopico span span .yui-module {
+		left:-110px !important;
+	}
+	
+	.edicao-ativa { 		
+ 		padding: 5px 5px 5px 20px;
+ 		border-style: solid; 
+ 		border-width: 1px; 
+ 		border-color: #BED6F8;
+		border-radius: 	5px 5px 5px 5px; 		
+ 		
+ 		position: relative;
+ 		background: url('/sigaa/ava/img/handle_part.jpg') repeat-y;
+ 		background-position: 0px 5px;
+ 	}
+
+</style>
+
+
+	
+		
+						
+		
+	
+
+
+
+
+
+	<div class="descricaoOperacao" id="ultimaNoticia">
+		<h4> &#218;ltima Not&#237;cia
+		<br>Aviso - 28/09/2023 01:15 </h4>
+		<p>Passando para lembrar que hoje ser&aacute; feita em sala de aula a atividade que vale 4,0 pontos da nota, ok? At&eacute; mais.</p>
+		<br>
+		<small> Cadastrado por:  <i> KAREN BATISTA SANTOS</i>  </small>
+	</div>
+
+
+
+
+<input id="formAva:idTopicoSelecionado" type="hidden" name="formAva:idTopicoSelecionado" value="0" /><input id="formAva:bExibirTopico" name="formAva:bExibirTopico" onclick="A4J.AJAX.Submit('formAva',event,{'oncomplete':function(request,event,data){completarCarregamentoTopico();},'similarityGroupingId':'formAva:bExibirTopico','parameters':{'formAva:bExibirTopico':'formAva:bExibirTopico'} ,'containerId':'formAva:j_id_jsp_64093412_243'} );return false;" style="display:none;" type="button" /><span id="formAva:panelTopicosNaoSelecionados"><span id="formAva:j_id_jsp_64093412_247:0:aulas"><div id="formAva:j_id_jsp_64093412_247:0:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:0:titulo" class="titulo">Apresenta&ccedil;&atilde;o da disciplina (06/06/2023 - 06/06/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:0:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:0:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:0:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div><span id="formAva:j_id_jsp_64093412_247:0:listaMateriais:0:dndPanel"><div id="formAva:j_id_jsp_64093412_247:0:listaMateriais:0:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/pdf.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:0:listaMateriais:0:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:0:listaMateriais:0:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:0:listaMateriais:0:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:0:listaMateriais:0:idInserirMaterialArquivo','id':'3947892','key':'808dacd7eb3ec43b8189d135b6895c8a'},'_blank');}return false">Plano de Ensino_Sociologia das Organizacoes T.pdf</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:0:listaMateriais:0:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:0:listaMateriais:0:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:0:listaMateriais:0:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:0:listaMateriais:0:dndPanel',{'acceptedTypes':['material_aula_63696096'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:0:listaMateriais:0:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:0:listaMateriais:0:destinoDragDrop':'formAva:j_id_jsp_64093412_247:0:listaMateriais:0:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:0:listaMateriais:0:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:1:aulas"><div id="formAva:j_id_jsp_64093412_247:1:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:1:titulo" class="titulo">Reposi&ccedil;&atilde;o (08/06) - Atividade (10/06/2023 - 10/06/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:1:conteudo" class="conteudotopico">Aula Extra.<div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:1:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:1:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:2:aulas"><div id="formAva:j_id_jsp_64093412_247:2:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:2:titulo" class="titulo">O surgimento da sociologia e o estudo das organiza&ccedil;&otilde;es (13/06/2023 - 13/06/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:2:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:2:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:2:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div><span id="formAva:j_id_jsp_64093412_247:2:listaMateriais:0:dndPanel"><div id="formAva:j_id_jsp_64093412_247:2:listaMateriais:0:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/pdf.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:2:listaMateriais:0:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:2:listaMateriais:0:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:2:listaMateriais:0:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:2:listaMateriais:0:idInserirMaterialArquivo','id':'3955869','key':'00cc59d87c5737f3a78e9a77d68e4ff9'},'_blank');}return false">O surgimento da sociologia e o estudo das organiza&ccedil;&otilde;es.pdf</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:2:listaMateriais:0:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:2:listaMateriais:0:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:2:listaMateriais:0:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:2:listaMateriais:0:dndPanel',{'acceptedTypes':['material_aula_63696098'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:2:listaMateriais:0:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:2:listaMateriais:0:destinoDragDrop':'formAva:j_id_jsp_64093412_247:2:listaMateriais:0:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:2:listaMateriais:0:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span><span id="formAva:j_id_jsp_64093412_247:2:listaMateriais:1:dndPanel"><div id="formAva:j_id_jsp_64093412_247:2:listaMateriais:1:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/desconhecido.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:2:listaMateriais:1:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:2:listaMateriais:1:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:2:listaMateriais:1:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:2:listaMateriais:1:idInserirMaterialArquivo','id':'3955871','key':'40b02b41b37f98ec7fb164b8f4476f65'},'_blank');}return false">DURKHEIM, WEBER E MARX..mp4</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:2:listaMateriais:1:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:2:listaMateriais:1:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:2:listaMateriais:1:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:2:listaMateriais:1:dndPanel',{'acceptedTypes':['material_aula_63696098'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:2:listaMateriais:1:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:2:listaMateriais:1:destinoDragDrop':'formAva:j_id_jsp_64093412_247:2:listaMateriais:1:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:2:listaMateriais:1:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span><span id="formAva:j_id_jsp_64093412_247:2:listaMateriais:2:dndPanel"><div id="formAva:j_id_jsp_64093412_247:2:listaMateriais:2:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/pdf.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:2:listaMateriais:2:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:2:listaMateriais:2:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:2:listaMateriais:2:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:2:listaMateriais:2:idInserirMaterialArquivo','id':'3955872','key':'f9365587793fee90e5f0de5f07813c2a'},'_blank');}return false">Capitulo 1 - parte um .pdf</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:2:listaMateriais:2:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:2:listaMateriais:2:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:2:listaMateriais:2:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:2:listaMateriais:2:dndPanel',{'acceptedTypes':['material_aula_63696098'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:2:listaMateriais:2:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:2:listaMateriais:2:destinoDragDrop':'formAva:j_id_jsp_64093412_247:2:listaMateriais:2:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:2:listaMateriais:2:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span><span id="formAva:j_id_jsp_64093412_247:2:listaMateriais:3:dndPanel"><div id="formAva:j_id_jsp_64093412_247:2:listaMateriais:3:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/pdf.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:2:listaMateriais:3:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:2:listaMateriais:3:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:2:listaMateriais:3:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:2:listaMateriais:3:idInserirMaterialArquivo','id':'3955873','key':'29b84e33c258cef3e5a22ce5f3f972fd'},'_blank');}return false">Capitulo 1 - parte dois.pdf</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:2:listaMateriais:3:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:2:listaMateriais:3:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:2:listaMateriais:3:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:2:listaMateriais:3:dndPanel',{'acceptedTypes':['material_aula_63696098'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:2:listaMateriais:3:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:2:listaMateriais:3:destinoDragDrop':'formAva:j_id_jsp_64093412_247:2:listaMateriais:3:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:2:listaMateriais:3:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:3:aulas"><div id="formAva:j_id_jsp_64093412_247:3:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:3:titulo" class="titulo">A sociedade e as organiza&ccedil;&otilde;es (15/06/2023 - 15/06/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:3:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:3:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:3:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div><span id="formAva:j_id_jsp_64093412_247:3:listaMateriais:0:dndPanel"><div id="formAva:j_id_jsp_64093412_247:3:listaMateriais:0:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/pdf.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:3:listaMateriais:0:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:3:listaMateriais:0:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:3:listaMateriais:0:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:3:listaMateriais:0:idInserirMaterialArquivo','id':'3958712','key':'79c13fa726b211fda45093cc29ae7e2e'},'_blank');}return false">A Sociedade e as Organiza&ccedil;&otilde;es.pdf</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:3:listaMateriais:0:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:3:listaMateriais:0:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:3:listaMateriais:0:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:3:listaMateriais:0:dndPanel',{'acceptedTypes':['material_aula_63696099'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:3:listaMateriais:0:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:3:listaMateriais:0:destinoDragDrop':'formAva:j_id_jsp_64093412_247:3:listaMateriais:0:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:3:listaMateriais:0:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:4:aulas"><div id="formAva:j_id_jsp_64093412_247:4:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:4:titulo" class="titulo">Conhecendo melhor as organiza&ccedil;&otilde;es: estruturas e tipos (20/06/2023 - 20/06/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:4:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:4:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:4:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div><span id="formAva:j_id_jsp_64093412_247:4:listaMateriais:0:dndPanel"><div id="formAva:j_id_jsp_64093412_247:4:listaMateriais:0:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/pdf.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:4:listaMateriais:0:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:4:listaMateriais:0:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:4:listaMateriais:0:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:4:listaMateriais:0:idInserirMaterialArquivo','id':'3964161','key':'61c0b3ec4ca040251c6299f0d1cab307'},'_blank');}return false">Conhecendo melhor as organiza&ccedil;&otilde;es.pdf</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:4:listaMateriais:0:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:4:listaMateriais:0:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:4:listaMateriais:0:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:4:listaMateriais:0:dndPanel',{'acceptedTypes':['material_aula_63696100'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:4:listaMateriais:0:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:4:listaMateriais:0:destinoDragDrop':'formAva:j_id_jsp_64093412_247:4:listaMateriais:0:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:4:listaMateriais:0:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:5:aulas"><div id="formAva:j_id_jsp_64093412_247:5:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:5:titulo" class="titulo">Conhecendo melhor as organiza&ccedil;&otilde;es + Grupos e equipes de trabalho nas organiza&ccedil;&otilde;es (22/06/2023 - 22/06/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:5:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:5:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:5:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:6:aulas"><div id="formAva:j_id_jsp_64093412_247:6:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:6:titulo" class="titulo">Grupos e equipes de trabalho nas organiza&ccedil;&otilde;es (27/06/2023 - 27/06/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:6:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:6:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:6:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div><span id="formAva:j_id_jsp_64093412_247:6:listaMateriais:0:dndPanel"><div id="formAva:j_id_jsp_64093412_247:6:listaMateriais:0:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/pdf.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:6:listaMateriais:0:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:6:listaMateriais:0:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:6:listaMateriais:0:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:6:listaMateriais:0:idInserirMaterialArquivo','id':'3968831','key':'599a6bcdee702db06b607455383bfdba'},'_blank');}return false">Grupos e Equipes de Trabalho nas Organiza&ccedil;&otilde;es.pdf</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:6:listaMateriais:0:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:6:listaMateriais:0:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:6:listaMateriais:0:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:6:listaMateriais:0:dndPanel',{'acceptedTypes':['material_aula_63696102'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:6:listaMateriais:0:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:6:listaMateriais:0:destinoDragDrop':'formAva:j_id_jsp_64093412_247:6:listaMateriais:0:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:6:listaMateriais:0:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:7:aulas"><div id="formAva:j_id_jsp_64093412_247:7:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:7:titulo" class="titulo">Atividade (29/06/2023 - 29/06/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:7:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:7:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:7:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:8:aulas"><div id="formAva:j_id_jsp_64093412_247:8:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:8:titulo" class="titulo">As Met&aacute;foras de Morgan (04/07/2023 - 04/07/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:8:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:8:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:8:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div><span id="formAva:j_id_jsp_64093412_247:8:listaMateriais:0:dndPanel"><div id="formAva:j_id_jsp_64093412_247:8:listaMateriais:0:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/pdf.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:8:listaMateriais:0:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:8:listaMateriais:0:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:8:listaMateriais:0:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:8:listaMateriais:0:idInserirMaterialArquivo','id':'3977833','key':'397bd94ec5438c7fb8a02948c2673252'},'_blank');}return false">As met&aacute;foras de Morgan.pdf</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:8:listaMateriais:0:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:8:listaMateriais:0:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:8:listaMateriais:0:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:8:listaMateriais:0:dndPanel',{'acceptedTypes':['material_aula_63696104'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:8:listaMateriais:0:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:8:listaMateriais:0:destinoDragDrop':'formAva:j_id_jsp_64093412_247:8:listaMateriais:0:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:8:listaMateriais:0:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:9:aulas"><div id="formAva:j_id_jsp_64093412_247:9:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:9:titulo" class="titulo">As Met&aacute;foras de Morgan (06/07/2023 - 06/07/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:9:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:9:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:9:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div><span id="formAva:j_id_jsp_64093412_247:9:listaMateriais:0:dndPanel"><div id="formAva:j_id_jsp_64093412_247:9:listaMateriais:0:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/pdf.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:9:listaMateriais:0:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:9:listaMateriais:0:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:9:listaMateriais:0:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:9:listaMateriais:0:idInserirMaterialArquivo','id':'3983782','key':'ee0af19518e19c783c63f7f66e550adb'},'_blank');}return false">Resenha Imagens da Organiza&ccedil;&atilde;o.pdf</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:9:listaMateriais:0:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:9:listaMateriais:0:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:9:listaMateriais:0:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:9:listaMateriais:0:dndPanel',{'acceptedTypes':['material_aula_63696105'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:9:listaMateriais:0:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:9:listaMateriais:0:destinoDragDrop':'formAva:j_id_jsp_64093412_247:9:listaMateriais:0:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:9:listaMateriais:0:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:10:aulas"><div id="formAva:j_id_jsp_64093412_247:10:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:10:titulo" class="titulo">As Met&aacute;foras de Morgan (11/07/2023 - 11/07/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:10:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:10:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:10:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:11:aulas"><div id="formAva:j_id_jsp_64093412_247:11:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:11:titulo" class="titulo">Estudo de caso (13/07/2023 - 13/07/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:11:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:11:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:11:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:12:aulas"><div id="formAva:j_id_jsp_64093412_247:12:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:12:titulo" class="titulo">Avalia&ccedil;&atilde;o Unidade I (18/07/2023 - 18/07/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:12:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:12:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:12:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div><span id="formAva:j_id_jsp_64093412_247:12:listaMateriais:0:dndPanel"><div id="formAva:j_id_jsp_64093412_247:12:listaMateriais:0:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/doc.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:12:listaMateriais:0:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:12:listaMateriais:0:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:12:listaMateriais:0:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:12:listaMateriais:0:idInserirMaterialArquivo','id':'3991226','key':'87b0bace18576ae63808d14fcedd9597'},'_blank');}return false">Prova Sociologia T2 a - Gabarito.docx</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:12:listaMateriais:0:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:12:listaMateriais:0:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:12:listaMateriais:0:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:12:listaMateriais:0:dndPanel',{'acceptedTypes':['material_aula_63696108'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:12:listaMateriais:0:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:12:listaMateriais:0:destinoDragDrop':'formAva:j_id_jsp_64093412_247:12:listaMateriais:0:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:12:listaMateriais:0:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span><span id="formAva:j_id_jsp_64093412_247:12:listaMateriais:1:dndPanel"><div id="formAva:j_id_jsp_64093412_247:12:listaMateriais:1:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/doc.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:12:listaMateriais:1:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:12:listaMateriais:1:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:12:listaMateriais:1:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:12:listaMateriais:1:idInserirMaterialArquivo','id':'3991227','key':'dcb66121601b6c20a31cb879ddb88d74'},'_blank');}return false">Prova Sociologia T2 b - Gabarito.docx</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:12:listaMateriais:1:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:12:listaMateriais:1:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:12:listaMateriais:1:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:12:listaMateriais:1:dndPanel',{'acceptedTypes':['material_aula_63696108'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:12:listaMateriais:1:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:12:listaMateriais:1:destinoDragDrop':'formAva:j_id_jsp_64093412_247:12:listaMateriais:1:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:12:listaMateriais:1:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span><span id="formAva:j_id_jsp_64093412_247:12:listaMateriais:2:dndPanel"><div id="formAva:j_id_jsp_64093412_247:12:listaMateriais:2:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/tarefa.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:12:listaMateriais:2:j_id_jsp_64093412_349">&nbsp;<a id="formAva:j_id_jsp_64093412_247:12:listaMateriais:2:idEnviarMaterialTarefa" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:12:listaMateriais:2:idEnviarMaterialTarefa':'formAva:j_id_jsp_64093412_247:12:listaMateriais:2:idEnviarMaterialTarefa','id':'64281381'},'');}return false"> Resenha sobre o v&iacute;deo &quot;O trip&eacute; da Sociologia&quot;</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:12:listaMateriais:2:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:12:listaMateriais:2:j_id_jsp_64093412_503">Inicia em 19/07/2023 &agrave;s 0h 0 e finaliza em 03/08/2023 &agrave;s 23h 59</span></div></div><script id="formAva:j_id_jsp_64093412_247:12:listaMateriais:2:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:12:listaMateriais:2:dndPanel',{'acceptedTypes':['material_aula_63696108'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:12:listaMateriais:2:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:12:listaMateriais:2:destinoDragDrop':'formAva:j_id_jsp_64093412_247:12:listaMateriais:2:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:12:listaMateriais:2:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:13:aulas"><div id="formAva:j_id_jsp_64093412_247:13:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:13:titulo" class="titulo">Atividade (20/07/2023 - 20/07/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:13:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:13:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:13:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:14:aulas"><div id="formAva:j_id_jsp_64093412_247:14:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:14:titulo" class="titulo">A din&acirc;mica interna da empresa (25/07/2023 - 25/07/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:14:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:14:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:14:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div><span id="formAva:j_id_jsp_64093412_247:14:listaMateriais:0:dndPanel"><div id="formAva:j_id_jsp_64093412_247:14:listaMateriais:0:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/pdf.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:14:listaMateriais:0:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:14:listaMateriais:0:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:14:listaMateriais:0:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:14:listaMateriais:0:idInserirMaterialArquivo','id':'4004605','key':'85e5d972287b9b451cee2c0fcfe65632'},'_blank');}return false">Atores em cena.pdf</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:14:listaMateriais:0:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:14:listaMateriais:0:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:14:listaMateriais:0:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:14:listaMateriais:0:dndPanel',{'acceptedTypes':['material_aula_63696110'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:14:listaMateriais:0:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:14:listaMateriais:0:destinoDragDrop':'formAva:j_id_jsp_64093412_247:14:listaMateriais:0:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:14:listaMateriais:0:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span><span id="formAva:j_id_jsp_64093412_247:14:listaMateriais:1:dndPanel"><div id="formAva:j_id_jsp_64093412_247:14:listaMateriais:1:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/pdf.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:14:listaMateriais:1:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:14:listaMateriais:1:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:14:listaMateriais:1:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:14:listaMateriais:1:idInserirMaterialArquivo','id':'4018761','key':'b74e8e91e4f5d9e579aa89979458ce1e'},'_blank');}return false">Capitulo 2.pdf</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:14:listaMateriais:1:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:14:listaMateriais:1:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:14:listaMateriais:1:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:14:listaMateriais:1:dndPanel',{'acceptedTypes':['material_aula_63696110'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:14:listaMateriais:1:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:14:listaMateriais:1:destinoDragDrop':'formAva:j_id_jsp_64093412_247:14:listaMateriais:1:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:14:listaMateriais:1:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:15:aulas"><div id="formAva:j_id_jsp_64093412_247:15:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:15:titulo" class="titulo">A din&acirc;mica interna da empresa (27/07/2023 - 27/07/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:15:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:15:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:15:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div><span id="formAva:j_id_jsp_64093412_247:15:listaMateriais:0:dndPanel"><div id="formAva:j_id_jsp_64093412_247:15:listaMateriais:0:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/doc.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:15:listaMateriais:0:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:15:listaMateriais:0:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:15:listaMateriais:0:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:15:listaMateriais:0:idInserirMaterialArquivo','id':'4010481','key':'a29d80446b89d2e6f63341e17f898285'},'_blank');}return false">Estudo de Caso.docx</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:15:listaMateriais:0:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:15:listaMateriais:0:j_id_jsp_64093412_497">Atividade da aula do dia 01/08, valendo 1,0 ponto extra. Quem n&#227;o fez pode entregar at&#233; o dia 08/08.</span></div></div><script id="formAva:j_id_jsp_64093412_247:15:listaMateriais:0:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:15:listaMateriais:0:dndPanel',{'acceptedTypes':['material_aula_63696111'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:15:listaMateriais:0:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:15:listaMateriais:0:destinoDragDrop':'formAva:j_id_jsp_64093412_247:15:listaMateriais:0:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:15:listaMateriais:0:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:16:aulas"><div id="formAva:j_id_jsp_64093412_247:16:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:16:titulo" class="titulo">A din&acirc;mica externa da empresa (01/08/2023 - 01/08/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:16:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:16:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:16:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div><span id="formAva:j_id_jsp_64093412_247:16:listaMateriais:0:dndPanel"><div id="formAva:j_id_jsp_64093412_247:16:listaMateriais:0:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/pdf.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:16:listaMateriais:0:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:16:listaMateriais:0:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:16:listaMateriais:0:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:16:listaMateriais:0:idInserirMaterialArquivo','id':'4010482','key':'095267d4c03f45dc34d399c34c033525'},'_blank');}return false">An&aacute;lise sociol&oacute;gica  da din&acirc;mica externa  da empresa.pdf</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:16:listaMateriais:0:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:16:listaMateriais:0:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:16:listaMateriais:0:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:16:listaMateriais:0:dndPanel',{'acceptedTypes':['material_aula_63696112'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:16:listaMateriais:0:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:16:listaMateriais:0:destinoDragDrop':'formAva:j_id_jsp_64093412_247:16:listaMateriais:0:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:16:listaMateriais:0:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span><span id="formAva:j_id_jsp_64093412_247:16:listaMateriais:1:dndPanel"><div id="formAva:j_id_jsp_64093412_247:16:listaMateriais:1:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/portal_turma/video.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:16:listaMateriais:1:j_id_jsp_64093412_393"><span id="formAva:j_id_jsp_64093412_247:16:listaMateriais:1:j_id_jsp_64093412_404"><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:16:listaMateriais:1:j_id_jsp_64093412_405':'formAva:j_id_jsp_64093412_247:16:listaMateriais:1:j_id_jsp_64093412_405','id':'64389057'},'_blank');}return false"> Seu lixo tem futuro </a></span></span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:16:listaMateriais:1:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:16:listaMateriais:1:j_id_jsp_64093412_515"></span></div></div><script id="formAva:j_id_jsp_64093412_247:16:listaMateriais:1:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:16:listaMateriais:1:dndPanel',{'acceptedTypes':['material_aula_63696112'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:16:listaMateriais:1:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:16:listaMateriais:1:destinoDragDrop':'formAva:j_id_jsp_64093412_247:16:listaMateriais:1:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:16:listaMateriais:1:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span><span id="formAva:j_id_jsp_64093412_247:16:listaMateriais:2:dndPanel"><div id="formAva:j_id_jsp_64093412_247:16:listaMateriais:2:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/pdf.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:16:listaMateriais:2:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:16:listaMateriais:2:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:16:listaMateriais:2:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:16:listaMateriais:2:idInserirMaterialArquivo','id':'4018763','key':'46cc5ab3a3d4bfc5e22d1ab07c6409fe'},'_blank');}return false">Capitulo 4.pdf</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:16:listaMateriais:2:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:16:listaMateriais:2:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:16:listaMateriais:2:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:16:listaMateriais:2:dndPanel',{'acceptedTypes':['material_aula_63696112'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:16:listaMateriais:2:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:16:listaMateriais:2:destinoDragDrop':'formAva:j_id_jsp_64093412_247:16:listaMateriais:2:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:16:listaMateriais:2:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:17:aulas"><div id="formAva:j_id_jsp_64093412_247:17:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:17:titulo" class="titulo">A din&acirc;mica externa da empresa (03/08/2023 - 03/08/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:17:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:17:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:17:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div><span id="formAva:j_id_jsp_64093412_247:17:listaMateriais:0:dndPanel"><div id="formAva:j_id_jsp_64093412_247:17:listaMateriais:0:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/portal_turma/video.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:17:listaMateriais:0:j_id_jsp_64093412_393"><span id="formAva:j_id_jsp_64093412_247:17:listaMateriais:0:j_id_jsp_64093412_404"><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:17:listaMateriais:0:j_id_jsp_64093412_405':'formAva:j_id_jsp_64093412_247:17:listaMateriais:0:j_id_jsp_64093412_405','id':'64389058'},'_blank');}return false"> Greenwashing </a></span></span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:17:listaMateriais:0:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:17:listaMateriais:0:j_id_jsp_64093412_515"><p>Assistam ao v&iacute;deo para discutirmos na pr&oacute;xima aula</p></span></div></div><script id="formAva:j_id_jsp_64093412_247:17:listaMateriais:0:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:17:listaMateriais:0:dndPanel',{'acceptedTypes':['material_aula_63696113'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:17:listaMateriais:0:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:17:listaMateriais:0:destinoDragDrop':'formAva:j_id_jsp_64093412_247:17:listaMateriais:0:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:17:listaMateriais:0:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span><span id="formAva:j_id_jsp_64093412_247:17:listaMateriais:1:dndPanel"><div id="formAva:j_id_jsp_64093412_247:17:listaMateriais:1:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/conteudo.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:17:listaMateriais:1:j_id_jsp_64093412_418"><a id="formAva:j_id_jsp_64093412_247:17:listaMateriais:1:idMostrarMaterialConteudo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:17:listaMateriais:1:idMostrarMaterialConteudo':'formAva:j_id_jsp_64093412_247:17:listaMateriais:1:idMostrarMaterialConteudo','id':'64393396'},'');}return false"> Link do v&iacute;deo</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:17:listaMateriais:1:j_id_jsp_64093412_496" class="descricao-item"></div></div><script id="formAva:j_id_jsp_64093412_247:17:listaMateriais:1:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:17:listaMateriais:1:dndPanel',{'acceptedTypes':['material_aula_63696113'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:17:listaMateriais:1:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:17:listaMateriais:1:destinoDragDrop':'formAva:j_id_jsp_64093412_247:17:listaMateriais:1:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:17:listaMateriais:1:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:18:aulas"><div id="formAva:j_id_jsp_64093412_247:18:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:18:titulo" class="titulo">Cultura e Organiza&ccedil;&otilde;es (08/08/2023 - 08/08/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:18:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:18:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:18:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div><span id="formAva:j_id_jsp_64093412_247:18:listaMateriais:0:dndPanel"><div id="formAva:j_id_jsp_64093412_247:18:listaMateriais:0:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/pdf.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:18:listaMateriais:0:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:18:listaMateriais:0:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:18:listaMateriais:0:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:18:listaMateriais:0:idInserirMaterialArquivo','id':'4018765','key':'26fde40baa5ff86d2f83aafb8fae70b2'},'_blank');}return false">Capitulo 6.pdf</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:18:listaMateriais:0:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:18:listaMateriais:0:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:18:listaMateriais:0:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:18:listaMateriais:0:dndPanel',{'acceptedTypes':['material_aula_63696114'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:18:listaMateriais:0:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:18:listaMateriais:0:destinoDragDrop':'formAva:j_id_jsp_64093412_247:18:listaMateriais:0:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:18:listaMateriais:0:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span><span id="formAva:j_id_jsp_64093412_247:18:listaMateriais:1:dndPanel"><div id="formAva:j_id_jsp_64093412_247:18:listaMateriais:1:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/pdf.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:18:listaMateriais:1:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:18:listaMateriais:1:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:18:listaMateriais:1:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:18:listaMateriais:1:idInserirMaterialArquivo','id':'4018768','key':'bf890dde3c947281e555dab11aedf60c'},'_blank');}return false">Cultura e organiza&ccedil;&otilde;es.pdf</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:18:listaMateriais:1:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:18:listaMateriais:1:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:18:listaMateriais:1:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:18:listaMateriais:1:dndPanel',{'acceptedTypes':['material_aula_63696114'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:18:listaMateriais:1:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:18:listaMateriais:1:destinoDragDrop':'formAva:j_id_jsp_64093412_247:18:listaMateriais:1:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:18:listaMateriais:1:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:19:aulas"><div id="formAva:j_id_jsp_64093412_247:19:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:19:titulo" class="titulo">Cultura e Organiza&ccedil;&otilde;es (10/08/2023 - 10/08/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:19:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:19:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:19:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div><span id="formAva:j_id_jsp_64093412_247:19:listaMateriais:0:dndPanel"><div id="formAva:j_id_jsp_64093412_247:19:listaMateriais:0:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/pdf.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:19:listaMateriais:0:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:19:listaMateriais:0:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:19:listaMateriais:0:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:19:listaMateriais:0:idInserirMaterialArquivo','id':'4018766','key':'a655f409d8be3140c56d16d6eb16668c'},'_blank');}return false">Cap&iacute;tulo 7.pdf</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:19:listaMateriais:0:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:19:listaMateriais:0:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:19:listaMateriais:0:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:19:listaMateriais:0:dndPanel',{'acceptedTypes':['material_aula_63696115'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:19:listaMateriais:0:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:19:listaMateriais:0:destinoDragDrop':'formAva:j_id_jsp_64093412_247:19:listaMateriais:0:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:19:listaMateriais:0:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:20:aulas"><div id="formAva:j_id_jsp_64093412_247:20:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:20:titulo" class="titulo">Document&aacute;rio - parte 1 (15/08/2023 - 15/08/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:20:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:20:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:20:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:21:aulas"><div id="formAva:j_id_jsp_64093412_247:21:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:21:titulo" class="titulo">Document&aacute;rio - parte 2 (17/08/2023 - 17/08/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:21:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:21:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:21:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:22:aulas"><div id="formAva:j_id_jsp_64093412_247:22:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:22:titulo" class="titulo">O desafio da Globaliza&ccedil;&atilde;o para as Organiza&ccedil;&otilde;es e Sociedade (22/08/2023 - 22/08/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:22:conteudo" class="conteudotopico"><p><span style="font-family: Verdana, sans-serif; font-size: 11.2px;">Estudo de caso feito em sala de aula valendo 2,0 da nota da 2&ordf; avalia&ccedil;&atilde;o.</span></p><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:22:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:22:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:23:aulas"><div id="formAva:j_id_jsp_64093412_247:23:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:23:titulo" class="titulo">Atividade (24/08/2023 - 24/08/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:23:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:23:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:23:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:24:aulas"><div id="formAva:j_id_jsp_64093412_247:24:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:24:titulo" class="titulo">Avalia&ccedil;&atilde;o Unidade II (29/08/2023 - 29/08/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:24:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:24:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:24:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div><span id="formAva:j_id_jsp_64093412_247:24:listaMateriais:0:dndPanel"><div id="formAva:j_id_jsp_64093412_247:24:listaMateriais:0:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/doc.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:24:listaMateriais:0:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:24:listaMateriais:0:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:24:listaMateriais:0:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:24:listaMateriais:0:idInserirMaterialArquivo','id':'4037156','key':'ed0ff73ce4559ef6298a0f38044de404'},'_blank');}return false">AV2 T2 - Gabarito.docx</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:24:listaMateriais:0:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:24:listaMateriais:0:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:24:listaMateriais:0:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:24:listaMateriais:0:dndPanel',{'acceptedTypes':['material_aula_63696120'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:24:listaMateriais:0:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:24:listaMateriais:0:destinoDragDrop':'formAva:j_id_jsp_64093412_247:24:listaMateriais:0:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:24:listaMateriais:0:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:25:aulas"><div id="formAva:j_id_jsp_64093412_247:25:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:25:titulo" class="titulo">Concep&ccedil;&atilde;o Contempor&acirc;nea do Trabalho (31/08/2023 - 31/08/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:25:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:25:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:25:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div><span id="formAva:j_id_jsp_64093412_247:25:listaMateriais:0:dndPanel"><div id="formAva:j_id_jsp_64093412_247:25:listaMateriais:0:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/pdf.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:25:listaMateriais:0:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:25:listaMateriais:0:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:25:listaMateriais:0:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:25:listaMateriais:0:idInserirMaterialArquivo','id':'4042763','key':'7f42e4bc4bb14805f60c0f58558c8e70'},'_blank');}return false">Concep&ccedil;&otilde;es sobre o Trabalho.pdf</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:25:listaMateriais:0:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:25:listaMateriais:0:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:25:listaMateriais:0:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:25:listaMateriais:0:dndPanel',{'acceptedTypes':['material_aula_63696121'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:25:listaMateriais:0:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:25:listaMateriais:0:destinoDragDrop':'formAva:j_id_jsp_64093412_247:25:listaMateriais:0:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:25:listaMateriais:0:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:26:aulas"><div id="formAva:j_id_jsp_64093412_247:26:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:26:titulo" class="titulo">Motiva&ccedil;&atilde;o no Trabalho e Sentido do Trabalho (05/09/2023 - 05/09/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:26:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:26:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:26:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div><span id="formAva:j_id_jsp_64093412_247:26:listaMateriais:0:dndPanel"><div id="formAva:j_id_jsp_64093412_247:26:listaMateriais:0:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/pdf.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:26:listaMateriais:0:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:26:listaMateriais:0:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:26:listaMateriais:0:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:26:listaMateriais:0:idInserirMaterialArquivo','id':'4047772','key':'4df6f4237d3d0dcfc2d5092cc4f97016'},'_blank');}return false">Motiva&ccedil;&atilde;o no Trabalho e o Sentido do Trabalho.pdf</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:26:listaMateriais:0:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:26:listaMateriais:0:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:26:listaMateriais:0:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:26:listaMateriais:0:dndPanel',{'acceptedTypes':['material_aula_63696122'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:26:listaMateriais:0:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:26:listaMateriais:0:destinoDragDrop':'formAva:j_id_jsp_64093412_247:26:listaMateriais:0:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:26:listaMateriais:0:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:27:aulas"><div id="formAva:j_id_jsp_64093412_247:27:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:27:titulo" class="titulo">Reposi&ccedil;&atilde;o (07/09) - Atividade (09/09/2023 - 09/09/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:27:conteudo" class="conteudotopico">Aula Extra.<div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:27:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:27:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:28:aulas"><div id="formAva:j_id_jsp_64093412_247:28:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:28:titulo" class="titulo">Socializa&ccedil;&atilde;o organizacional (12/09/2023 - 12/09/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:28:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:28:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:28:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div><span id="formAva:j_id_jsp_64093412_247:28:listaMateriais:0:dndPanel"><div id="formAva:j_id_jsp_64093412_247:28:listaMateriais:0:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/pdf.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:28:listaMateriais:0:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:28:listaMateriais:0:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:28:listaMateriais:0:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:28:listaMateriais:0:idInserirMaterialArquivo','id':'4048596','key':'6c26099e4afa9e578d0a4676eda4376c'},'_blank');}return false">Socializa&ccedil;&atilde;o Organizacional.pdf</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:28:listaMateriais:0:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:28:listaMateriais:0:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:28:listaMateriais:0:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:28:listaMateriais:0:dndPanel',{'acceptedTypes':['material_aula_63696124'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:28:listaMateriais:0:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:28:listaMateriais:0:destinoDragDrop':'formAva:j_id_jsp_64093412_247:28:listaMateriais:0:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:28:listaMateriais:0:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:29:aulas"><div id="formAva:j_id_jsp_64093412_247:29:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:29:titulo" class="titulo">Precariza&ccedil;&atilde;o do Trabalho (14/09/2023 - 14/09/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:29:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:29:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:29:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div><span id="formAva:j_id_jsp_64093412_247:29:listaMateriais:0:dndPanel"><div id="formAva:j_id_jsp_64093412_247:29:listaMateriais:0:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/pdf.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:29:listaMateriais:0:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:29:listaMateriais:0:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:29:listaMateriais:0:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:29:listaMateriais:0:idInserirMaterialArquivo','id':'4053770','key':'99b70d60d107ec354782396deac77f49'},'_blank');}return false">Precariza&ccedil;&atilde;o e Uberiza&ccedil;&atilde;o do Trabalho.pdf</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:29:listaMateriais:0:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:29:listaMateriais:0:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:29:listaMateriais:0:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:29:listaMateriais:0:dndPanel',{'acceptedTypes':['material_aula_63696125'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:29:listaMateriais:0:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:29:listaMateriais:0:destinoDragDrop':'formAva:j_id_jsp_64093412_247:29:listaMateriais:0:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:29:listaMateriais:0:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:30:aulas"><div id="formAva:j_id_jsp_64093412_247:30:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:30:titulo" class="titulo">Precariza&ccedil;&atilde;o do Trabalho (19/09/2023 - 19/09/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:30:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:30:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:30:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div><span id="formAva:j_id_jsp_64093412_247:30:listaMateriais:0:dndPanel"><div id="formAva:j_id_jsp_64093412_247:30:listaMateriais:0:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/conteudo.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:30:listaMateriais:0:j_id_jsp_64093412_418"><a id="formAva:j_id_jsp_64093412_247:30:listaMateriais:0:idMostrarMaterialConteudo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:30:listaMateriais:0:idMostrarMaterialConteudo':'formAva:j_id_jsp_64093412_247:30:listaMateriais:0:idMostrarMaterialConteudo','id':'64636578'},'');}return false"> Link do document&aacute;rio GIG - A uberiza&ccedil;&atilde;o do trabalho</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:30:listaMateriais:0:j_id_jsp_64093412_496" class="descricao-item"></div></div><script id="formAva:j_id_jsp_64093412_247:30:listaMateriais:0:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:30:listaMateriais:0:dndPanel',{'acceptedTypes':['material_aula_63696126'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:30:listaMateriais:0:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:30:listaMateriais:0:destinoDragDrop':'formAva:j_id_jsp_64093412_247:30:listaMateriais:0:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:30:listaMateriais:0:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:31:aulas"><div id="formAva:j_id_jsp_64093412_247:31:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:31:titulo" class="titulo">Diversidade e Inclus&atilde;o nas Organiza&ccedil;&otilde;es (21/09/2023 - 21/09/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:31:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:31:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:31:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:32:aulas"><div id="formAva:j_id_jsp_64093412_247:32:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:32:titulo" class="titulo">Diversidade e Inclus&atilde;o nas Organiza&ccedil;&otilde;es (26/09/2023 - 26/09/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:32:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:32:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:32:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div><span id="formAva:j_id_jsp_64093412_247:32:listaMateriais:0:dndPanel"><div id="formAva:j_id_jsp_64093412_247:32:listaMateriais:0:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/pdf.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:32:listaMateriais:0:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:32:listaMateriais:0:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:32:listaMateriais:0:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:32:listaMateriais:0:idInserirMaterialArquivo','id':'4059415','key':'c641802abfff12506614fde2fcf493a5'},'_blank');}return false">Diversidade e Inclus&atilde;o  nas Organiza&ccedil;&otilde;es.pdf</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:32:listaMateriais:0:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:32:listaMateriais:0:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:32:listaMateriais:0:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:32:listaMateriais:0:dndPanel',{'acceptedTypes':['material_aula_63696128'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:32:listaMateriais:0:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:32:listaMateriais:0:destinoDragDrop':'formAva:j_id_jsp_64093412_247:32:listaMateriais:0:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:32:listaMateriais:0:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span><span id="formAva:j_id_jsp_64093412_247:32:listaMateriais:1:dndPanel"><div id="formAva:j_id_jsp_64093412_247:32:listaMateriais:1:j_id_jsp_64093412_300" style="margin-left: 0px; " class="item">&nbsp;<img src="/sigaa/img/porta_arquivos/icones/pdf.png" />&nbsp;<span id="formAva:j_id_jsp_64093412_247:32:listaMateriais:1:j_id_jsp_64093412_308"><a id="formAva:j_id_jsp_64093412_247:32:listaMateriais:1:idInserirMaterialArquivo" href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formAva'),{'formAva:j_id_jsp_64093412_247:32:listaMateriais:1:idInserirMaterialArquivo':'formAva:j_id_jsp_64093412_247:32:listaMateriais:1:idInserirMaterialArquivo','id':'4059416','key':'ea202c16a6cb297e0d723802e0d8fb53'},'_blank');}return false">Cap&iacute;tulo 8.pdf</a>&nbsp;</span>&nbsp;&nbsp;<div id="formAva:j_id_jsp_64093412_247:32:listaMateriais:1:j_id_jsp_64093412_496" class="descricao-item"><span id="formAva:j_id_jsp_64093412_247:32:listaMateriais:1:j_id_jsp_64093412_497"></span></div></div><script id="formAva:j_id_jsp_64093412_247:32:listaMateriais:1:destinoDragDrop">new DnD.SimpleDropZone('formAva:j_id_jsp_64093412_247:32:listaMateriais:1:dndPanel',{'acceptedTypes':['material_aula_63696128'] ,'dndParams':'{}'} ).drop = function(event,drag){var options = {'similarityGroupingId':'formAva:j_id_jsp_64093412_247:32:listaMateriais:1:destinoDragDrop','parameters':{'formAva:j_id_jsp_64093412_247:32:listaMateriais:1:destinoDragDrop':'formAva:j_id_jsp_64093412_247:32:listaMateriais:1:destinoDragDrop'} ,'containerId':'formAva:j_id_jsp_64093412_243'} ;options.parameters['dropTargetId'] = 'formAva:j_id_jsp_64093412_247:32:listaMateriais:1:destinoDragDrop';Object.extend(options.parameters, drag.getParameters());var dzOptions = this.getDropzoneOptions(); if (dzOptions.ondrop) { if (!dzOptions.ondrop.call(this, event)) return; };A4J.AJAX.Submit('formAva',event,options);};</script></span></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:33:aulas"><div id="formAva:j_id_jsp_64093412_247:33:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:33:titulo" class="titulo">Estudo de caso (28/09/2023 - 28/09/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:33:conteudo" class="conteudotopico"><p>Estudo de caso feito em sala de aula valendo 2,0 da nota da 3&ordf; avalia&ccedil;&atilde;o.</p><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:33:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:33:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:34:aulas"><div id="formAva:j_id_jsp_64093412_247:34:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:34:titulo" class="titulo">Avalia&ccedil;&atilde;o Unidade III (03/10/2023 - 03/10/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:34:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:34:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:34:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				<span id="formAva:j_id_jsp_64093412_247:35:aulas"><div id="formAva:j_id_jsp_64093412_247:35:topico_aula" style="position: relative; margin-left: 10px; " class="topico-aula"><div id="formAva:j_id_jsp_64093412_247:35:titulo" class="titulo">Avalia&ccedil;&atilde;o Repositiva (05/10/2023 - 05/10/2023) <span style="font-weight:bold;"> - Local: SALA DE AULA - DID 3 - 104 </span>
+			
+			   
+		
+			 
+			
+			
+			
+			
+			
+	
+			<small><i>
+				
+			</i></small>
+		</div><div id="formAva:j_id_jsp_64093412_247:35:conteudo" class="conteudotopico"><div class="drgind_fly drgind_default drag_indicator " id="formAva:j_id_jsp_64093412_247:35:dragIndicator" style="display: none; " xmlns:rich="http://richfaces.ajax4jsf.org/rich"><script type="text/javascript">var elt = $("formAva:j_id_jsp_64093412_247:35:dragIndicator");
+		elt.markers = {};
+		elt.indicatorTemplates = {};elt.markers['accept'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/accept.gif.jsf\" /\x3E";
+elt.markers['default'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/default.gif.jsf\" /\x3E";
+elt.markers['reject'] = "\x3Cimg alt=\"\" border=\"0\" width=\"16\" height=\"16\" src=\"/sigaa/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/images/reject.gif.jsf\" /\x3E";
+elt.indicatorTemplates['single'] =  DefaultDragIndicatorView;elt.indicatorTemplates['multi'] =  DefaultDragIndicatorView;createDragIndicator(elt, '', '');</script></div></div></div><div style="clear:both"></div></span>
+					
+ 
+ 
+ 	
+
+ 
+
+<script type="text/javascript">
+function lancarAcaoTopico(elem) {
+	if (elem.value.split('_')[1] > 0) {
+		if(elem.value.split('_')[1] == 7 && !confirm('Deseja realmente remover o registro de aula?')) {
+			elem.selectedIndex = 0; //Se o usu&#225;rio cancelar a remo&#231;&#227;o, setar o valor selecionado como o primeiro da lista.
+			return null;			
+		}
+		
+		acaoTopico(elem);
+	}
+}
+</script>
+				</span><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id4" />
+</form>
+		</div>
+		
+		
+		
+		<div id="rodape" class="ui-layout-south">
+			<p>	
+			SIGAA | Superintend&#234;ncia de Tecnologia da Informa&#231;&#227;o/UFS - - | Copyright &copy; 2009-2023 - UFRN - dragao3.dragao3
+			 
+				<a onclick="javascript:versao();">v3.5.16 -r18729-30a3789c51</a>
+				
+			
+	
+			</p>
+		</div>
+		
+		
+		
+		<script>
+			J(document).ready(function (){
+				esconderLoading();
+			});
+	
+			if (YAHOO.util.Event == null)
+				YAHOO.util.Event = YahooEvent;
+		</script>
+		
+	
+		
+		<div id="mensagem">
+			<div class="x-window-header"></div>
+			<div class="x-window-body"></div>
+		</div>
+		</div> 
+		
+		 
+			<script type="text/javascript" charset="UTF-8">
+				function versao(){
+					var msg='';
+					msg+='SIGAA 3.5.16 -r18729-30a3789c51,  publicado em: 29/12/2011\n\n';
+					msg+='Depend\u00eancias:\n';
+					msg+='Arquitetura 2.5.10\n';
+					msg+='Entidades Comuns 1.2.25\n';
+					msg+='Servicos Integrados 1.3.10\n\n';
+					msg+='Copyrigth SINFO/UFRN';
+					alert(msg);
+				}
+			</script>
+		
+<!-- MYFACES JAVASCRIPT -->
+
+</body>
+</html>
